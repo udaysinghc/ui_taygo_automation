@@ -1,6 +1,6 @@
 @signup
 Feature: Test Signup Functionality
-
+@regression
   Scenario Outline: Test Signup with invalid user error message data
     Given user on the Signup page
     When user enter firstName "<firstName>", lastName "<lastName>", email "<email>", mobile "<mobileNumber>"
@@ -16,7 +16,7 @@ Feature: Test Signup Functionality
       | Test      | Test     | Test@gmail.com | 879456879    |          |          |                       | Please enter valid phone number |
 
 
-  @signupWithLoanOfficer
+  @signupWithLoanOfficer g
   Scenario Outline: User signup with loan officer
     Given  user on the Signup page
     When user enter firstName "<FirstName>", lastName "<LastName>", mobile "<MobileNumber>"

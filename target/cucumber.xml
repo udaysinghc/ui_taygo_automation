@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="205.354" tests="1" skipped="0" failures="1" errors="0">
+<testcase classname="Test Signup Functionality" name="User signup with loan officer - Example #1.1" time="205.182">
+<failure type="java.lang.AssertionError" message="Verify App Name">
+<![CDATA[java.lang.AssertionError: Verify App Name
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at com.taygo.pages.SignUpPage.googleReview(SignUpPage.java:547)
+	at com.taygo.stepDefinations.SignUpPageSteps.verifyMyApps(SignUpPageSteps.java:147)
+	at ?.user verify the my apps(file:///C:/Users/Admin/Documents/code%20llm%2010jan/DemoBdd/./src/test/java/com/taygo/feature/signUp.feature:32)
+]]>
+</failure>
+<system-out><![CDATA[
+Given user on the Signup page...............................................passed
+When user enter firstName "loanofficer", lastName "test", mobile "5182610312".passed
+And user set the password "Test@1234".......................................passed
+And user fill the individual information JobTitle "TestJob" NMLS_ID "123456" Address1 "USA" Address2 "UK" City "New York" ZipCode "10001" State "Alaska".passed
+And user fill the company information CompanyName "SMTP_Test" CompanyNMLSID "123456" CompanyType "Retail" Address1 "USA" Address2nd "UK" City "New York" ZipCode "10001" State "Alaska" LoanOfficers "5" WebSiteURL "https://cloud.taygo.tech/".passed
+And user verify the cell phone number "5182610312"..........................passed
+And user upload a profile picture...........................................passed
+And user select a package...................................................passed
+And user experiences consistent brand aesthetics............................passed
+And user enter Name on Card "test", Card number "4242424242424242", date "01/28" and CVV "123".passed
+Then verify the user dashboard..............................................passed
+And user verify the my apps.................................................failed
+]]></system-out>
+</testcase>
+</testsuite>

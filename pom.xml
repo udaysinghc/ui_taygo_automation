@@ -111,7 +111,7 @@
                             <goal>generate</goal>
                         </goals>
                         <configuration>
-                            <projectName>HealthProTest</projectName>
+                            <projectName>taygo</projectName>
                             <outputDirectory>${project.build.directory}/Report/cucumber-reports</outputDirectory>
                             <cucumberOutput>${project.build.directory}/cucumber/cucumber.json</cucumberOutput>
                             <skippedFails>true</skippedFails>

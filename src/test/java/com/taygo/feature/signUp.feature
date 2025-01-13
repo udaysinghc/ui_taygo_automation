@@ -1,19 +1,19 @@
 @signup
 Feature: Test Signup Functionality
 
-##  Scenario Outline: Test Signup with invalid user error message data
-#    Given user on the Signup page
-#    When user enter firstName "<firstName>", lastName "<lastName>", email "<email>", mobile "<mobileNumber>"
-#    Then user verify error messages for firstName "<fnError>", lastName "<lnError>", email "<emailError>",and  mobileNum "<mobileNum>"
-#    Examples:
-#      | firstName | lastName | email          | mobileNumber | fnError  | lnError  | emailError            | mobileNum                       |
-#      |           |          |                |              | Required | Required | Required              | Required                        |
-#      |           | Test     | Test@gmail.com | 8794568798   | Required |          |                       |                                 |
-#      | Test      |          | Test@gmail.com | 8794568798   |          | Required |                       |                                 |
-#      | Test      | Test     |                | 8794568798   |          |          | Required              |                                 |
-#      | Test      | Test     | Test           | 8794568798   |          |          | Must be a valid email |                                 |
-#      | Test      | Test     | Test@gmail.com |              |          |          |                       | Required                        |
-#      | Test      | Test     | Test@gmail.com | 879456879    |          |          |                       | Please enter valid phone number |
+  Scenario Outline: Test Signup with invalid user error message data
+    Given user on the Signup page
+    When user enter firstName "<firstName>", lastName "<lastName>", email "<email>", mobile "<mobileNumber>"
+    Then user verify error messages for firstName "<fnError>", lastName "<lnError>", email "<emailError>",and  mobileNum "<mobileNum>"
+    Examples:
+      | firstName | lastName | email          | mobileNumber | fnError  | lnError  | emailError            | mobileNum                       |
+      |           |          |                |              | Required | Required | Required              | Required                        |
+      |           | Test     | Test@gmail.com | 8794568798   | Required |          |                       |                                 |
+      | Test      |          | Test@gmail.com | 8794568798   |          | Required |                       |                                 |
+      | Test      | Test     |                | 8794568798   |          |          | Required              |                                 |
+      | Test      | Test     | Test           | 8794568798   |          |          | Must be a valid email |                                 |
+      | Test      | Test     | Test@gmail.com |              |          |          |                       | Required                        |
+      | Test      | Test     | Test@gmail.com | 879456879    |          |          |                       | Please enter valid phone number |
 
 
   @signupWithLoanOfficer

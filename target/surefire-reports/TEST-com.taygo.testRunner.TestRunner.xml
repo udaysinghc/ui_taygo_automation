@@ -1,0 +1,778 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.taygo.testRunner.TestRunner" time="419.575" tests="8" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="F:\Test demo\DemoBdd\target\test-classes;F:\Test demo\DemoBdd\target\classes;C:\Users\Admin\.m2\repository\org\apache\commons\commons-text\1.9\commons-text-1.9.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\Admin\.m2\repository\com\vimalselvam\cucumber-extentsreport\3.1.1\cucumber-extentsreport-3.1.1.jar;C:\Users\Admin\.m2\repository\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\Users\Admin\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\Admin\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\Users\Admin\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Admin\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Admin\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Admin\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Admin\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Admin\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Admin\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Admin\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\Users\Admin\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\Admin\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\Users\Admin\.m2\repository\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\Users\Admin\.m2\repository\com\aventstack\extentreports\4.0.9\extentreports-4.0.9.jar;C:\Users\Admin\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\Admin\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\Admin\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\Admin\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\Admin\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-java\4.24.0\selenium-java-4.24.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-api\4.24.0\selenium-api-4.24.0.jar;C:\Users\Admin\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.24.0\selenium-chrome-driver-4.24.0.jar;C:\Users\Admin\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.24.0\selenium-chromium-driver-4.24.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-json\4.24.0\selenium-json-4.24.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.24.0\selenium-manager-4.24.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v126\4.24.0\selenium-devtools-v126-4.24.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v127\4.24.0\selenium-devtools-v127-4.24.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v128\4.24.0\selenium-devtools-v128-4.24.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.24.0\selenium-devtools-v85-4.24.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.24.0\selenium-edge-driver-4.24.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.24.0\selenium-firefox-driver-4.24.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-http\4.24.0\selenium-http-4.24.0.jar;C:\Users\Admin\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.24.0\selenium-ie-driver-4.24.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.24.0\selenium-remote-driver-4.24.0.jar;C:\Users\Admin\.m2\repository\com\google\guava\guava\33.3.0-jre\guava-33.3.0-jre.jar;C:\Users\Admin\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\Admin\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Admin\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Admin\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\Admin\.m2\repository\com\google\errorprone\error_prone_annotations\2.28.0\error_prone_annotations-2.28.0.jar;C:\Users\Admin\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\opentelemetry-api\1.41.0\opentelemetry-api-1.41.0.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\opentelemetry-context\1.41.0\opentelemetry-context-1.41.0.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.41.0\opentelemetry-exporter-logging-1.41.0.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.41.0\opentelemetry-sdk-common-1.41.0.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.41.0\opentelemetry-sdk-extension-autoconfigure-spi-1.41.0.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.41.0\opentelemetry-sdk-extension-autoconfigure-1.41.0.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.41.0-alpha\opentelemetry-api-incubator-1.41.0-alpha.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.41.0\opentelemetry-sdk-trace-1.41.0.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.41.0\opentelemetry-sdk-1.41.0.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.41.0\opentelemetry-sdk-metrics-1.41.0.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.41.0\opentelemetry-sdk-logs-1.41.0.jar;C:\Users\Admin\.m2\repository\net\bytebuddy\byte-buddy\1.15.0\byte-buddy-1.15.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-os\4.24.0\selenium-os-4.24.0.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.24.0\selenium-safari-driver-4.24.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-support\4.24.0\selenium-support-4.24.0.jar;C:\Users\Admin\.m2\repository\io\cucumber\cucumber-java\7.11.0\cucumber-java-7.11.0.jar;C:\Users\Admin\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Admin\.m2\repository\io\cucumber\cucumber-junit\7.11.0\cucumber-junit-7.11.0.jar;C:\Users\Admin\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\Admin\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Admin\.m2\repository\io\cucumber\cucumber-core\7.11.0\cucumber-core-7.11.0.jar;C:\Users\Admin\.m2\repository\io\cucumber\cucumber-gherkin\7.11.0\cucumber-gherkin-7.11.0.jar;C:\Users\Admin\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.11.0\cucumber-gherkin-messages-7.11.0.jar;C:\Users\Admin\.m2\repository\io\cucumber\gherkin\26.0.3\gherkin-26.0.3.jar;C:\Users\Admin\.m2\repository\io\cucumber\messages\21.0.1\messages-21.0.1.jar;C:\Users\Admin\.m2\repository\io\cucumber\tag-expressions\5.0.1\tag-expressions-5.0.1.jar;C:\Users\Admin\.m2\repository\io\cucumber\cucumber-expressions\16.1.1\cucumber-expressions-16.1.1.jar;C:\Users\Admin\.m2\repository\io\cucumber\datatable\7.11.0\datatable-7.11.0.jar;C:\Users\Admin\.m2\repository\io\cucumber\cucumber-plugin\7.11.0\cucumber-plugin-7.11.0.jar;C:\Users\Admin\.m2\repository\io\cucumber\docstring\7.11.0\docstring-7.11.0.jar;C:\Users\Admin\.m2\repository\io\cucumber\html-formatter\20.2.1\html-formatter-20.2.1.jar;C:\Users\Admin\.m2\repository\io\cucumber\junit-xml-formatter\0.1.0\junit-xml-formatter-0.1.0.jar;C:\Users\Admin\.m2\repository\io\cucumber\ci-environment\9.1.0\ci-environment-9.1.0.jar;C:\Users\Admin\.m2\repository\org\apache\maven\plugins\maven-compiler-plugin\3.8.0\maven-compiler-plugin-3.8.0.jar;C:\Users\Admin\.m2\repository\org\apache\maven\maven-plugin-api\3.0\maven-plugin-api-3.0.jar;C:\Users\Admin\.m2\repository\org\apache\maven\maven-model\3.0\maven-model-3.0.jar;C:\Users\Admin\.m2\repository\org\sonatype\sisu\sisu-inject-plexus\1.4.2\sisu-inject-plexus-1.4.2.jar;C:\Users\Admin\.m2\repository\org\sonatype\sisu\sisu-inject-bean\1.4.2\sisu-inject-bean-1.4.2.jar;C:\Users\Admin\.m2\repository\org\sonatype\sisu\sisu-guice\2.1.7\sisu-guice-2.1.7-noaop.jar;C:\Users\Admin\.m2\repository\org\apache\maven\maven-artifact\3.0\maven-artifact-3.0.jar;C:\Users\Admin\.m2\repository\org\codehaus\plexus\plexus-utils\2.0.4\plexus-utils-2.0.4.jar;C:\Users\Admin\.m2\repository\org\apache\maven\maven-core\3.0\maven-core-3.0.jar;C:\Users\Admin\.m2\repository\org\apache\maven\maven-settings\3.0\maven-settings-3.0.jar;C:\Users\Admin\.m2\repository\org\apache\maven\maven-settings-builder\3.0\maven-settings-builder-3.0.jar;C:\Users\Admin\.m2\repository\org\apache\maven\maven-repository-metadata\3.0\maven-repository-metadata-3.0.jar;C:\Users\Admin\.m2\repository\org\apache\maven\maven-model-builder\3.0\maven-model-builder-3.0.jar;C:\Users\Admin\.m2\repository\org\apache\maven\maven-aether-provider\3.0\maven-aether-provider-3.0.jar;C:\Users\Admin\.m2\repository\org\sonatype\aether\aether-impl\1.7\aether-impl-1.7.jar;C:\Users\Admin\.m2\repository\org\sonatype\aether\aether-spi\1.7\aether-spi-1.7.jar;C:\Users\Admin\.m2\repository\org\sonatype\aether\aether-api\1.7\aether-api-1.7.jar;C:\Users\Admin\.m2\repository\org\sonatype\aether\aether-util\1.7\aether-util-1.7.jar;C:\Users\Admin\.m2\repository\org\codehaus\plexus\plexus-interpolation\1.14\plexus-interpolation-1.14.jar;C:\Users\Admin\.m2\repository\org\codehaus\plexus\plexus-classworlds\2.2.3\plexus-classworlds-2.2.3.jar;C:\Users\Admin\.m2\repository\org\codehaus\plexus\plexus-component-annotations\1.5.5\plexus-component-annotations-1.5.5.jar;C:\Users\Admin\.m2\repository\org\sonatype\plexus\plexus-sec-dispatcher\1.3\plexus-sec-dispatcher-1.3.jar;C:\Users\Admin\.m2\repository\org\sonatype\plexus\plexus-cipher\1.4\plexus-cipher-1.4.jar;C:\Users\Admin\.m2\repository\org\apache\maven\shared\maven-shared-utils\3.2.1\maven-shared-utils-3.2.1.jar;C:\Users\Admin\.m2\repository\commons-io\commons-io\2.5\commons-io-2.5.jar;C:\Users\Admin\.m2\repository\org\apache\maven\shared\maven-shared-incremental\1.1\maven-shared-incremental-1.1.jar;C:\Users\Admin\.m2\repository\org\codehaus\plexus\plexus-java\0.9.10\plexus-java-0.9.10.jar;C:\Users\Admin\.m2\repository\org\ow2\asm\asm\6.2\asm-6.2.jar;C:\Users\Admin\.m2\repository\com\thoughtworks\qdox\qdox\2.0-M8\qdox-2.0-M8.jar;C:\Users\Admin\.m2\repository\org\codehaus\plexus\plexus-compiler-api\2.8.4\plexus-compiler-api-2.8.4.jar;C:\Users\Admin\.m2\repository\org\codehaus\plexus\plexus-compiler-manager\2.8.4\plexus-compiler-manager-2.8.4.jar;C:\Users\Admin\.m2\repository\org\codehaus\plexus\plexus-compiler-javac\2.8.4\plexus-compiler-javac-2.8.4.jar;C:\Users\Admin\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\Admin\.m2\repository\org\slf4j\slf4j-api\1.7.5\slf4j-api-1.7.5.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-11.0.25.9-hotspot\bin"/>
+    <property name="sun.java.command" value="C:\Windows\Temp\surefire8208475620042786776\surefirebooter-20250114180247927_3.jar C:\Windows\Temp\surefire8208475620042786776 2025-01-14T18-02-47_473-jvmRun1 surefire-20250114180247927_1tmp surefire_0-20250114180247927_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="F:\Test demo\DemoBdd\target\test-classes;F:\Test demo\DemoBdd\target\classes;C:\Users\Admin\.m2\repository\org\apache\commons\commons-text\1.9\commons-text-1.9.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\Admin\.m2\repository\com\vimalselvam\cucumber-extentsreport\3.1.1\cucumber-extentsreport-3.1.1.jar;C:\Users\Admin\.m2\repository\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\Users\Admin\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\Admin\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\Users\Admin\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Admin\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Admin\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Admin\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Admin\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Admin\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Admin\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Admin\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\Users\Admin\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\Admin\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\Users\Admin\.m2\repository\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\Users\Admin\.m2\repository\com\aventstack\extentreports\4.0.9\extentreports-4.0.9.jar;C:\Users\Admin\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\Admin\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\Admin\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\Admin\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\Admin\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-java\4.24.0\selenium-java-4.24.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-api\4.24.0\selenium-api-4.24.0.jar;C:\Users\Admin\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.24.0\selenium-chrome-driver-4.24.0.jar;C:\Users\Admin\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.24.0\selenium-chromium-driver-4.24.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-json\4.24.0\selenium-json-4.24.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.24.0\selenium-manager-4.24.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v126\4.24.0\selenium-devtools-v126-4.24.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v127\4.24.0\selenium-devtools-v127-4.24.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v128\4.24.0\selenium-devtools-v128-4.24.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.24.0\selenium-devtools-v85-4.24.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.24.0\selenium-edge-driver-4.24.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.24.0\selenium-firefox-driver-4.24.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-http\4.24.0\selenium-http-4.24.0.jar;C:\Users\Admin\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.24.0\selenium-ie-driver-4.24.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.24.0\selenium-remote-driver-4.24.0.jar;C:\Users\Admin\.m2\repository\com\google\guava\guava\33.3.0-jre\guava-33.3.0-jre.jar;C:\Users\Admin\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\Admin\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Admin\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Admin\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\Admin\.m2\repository\com\google\errorprone\error_prone_annotations\2.28.0\error_prone_annotations-2.28.0.jar;C:\Users\Admin\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\opentelemetry-api\1.41.0\opentelemetry-api-1.41.0.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\opentelemetry-context\1.41.0\opentelemetry-context-1.41.0.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.41.0\opentelemetry-exporter-logging-1.41.0.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.41.0\opentelemetry-sdk-common-1.41.0.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.41.0\opentelemetry-sdk-extension-autoconfigure-spi-1.41.0.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.41.0\opentelemetry-sdk-extension-autoconfigure-1.41.0.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.41.0-alpha\opentelemetry-api-incubator-1.41.0-alpha.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.41.0\opentelemetry-sdk-trace-1.41.0.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.41.0\opentelemetry-sdk-1.41.0.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.41.0\opentelemetry-sdk-metrics-1.41.0.jar;C:\Users\Admin\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.41.0\opentelemetry-sdk-logs-1.41.0.jar;C:\Users\Admin\.m2\repository\net\bytebuddy\byte-buddy\1.15.0\byte-buddy-1.15.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-os\4.24.0\selenium-os-4.24.0.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.24.0\selenium-safari-driver-4.24.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-support\4.24.0\selenium-support-4.24.0.jar;C:\Users\Admin\.m2\repository\io\cucumber\cucumber-java\7.11.0\cucumber-java-7.11.0.jar;C:\Users\Admin\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Admin\.m2\repository\io\cucumber\cucumber-junit\7.11.0\cucumber-junit-7.11.0.jar;C:\Users\Admin\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\Admin\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Admin\.m2\repository\io\cucumber\cucumber-core\7.11.0\cucumber-core-7.11.0.jar;C:\Users\Admin\.m2\repository\io\cucumber\cucumber-gherkin\7.11.0\cucumber-gherkin-7.11.0.jar;C:\Users\Admin\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.11.0\cucumber-gherkin-messages-7.11.0.jar;C:\Users\Admin\.m2\repository\io\cucumber\gherkin\26.0.3\gherkin-26.0.3.jar;C:\Users\Admin\.m2\repository\io\cucumber\messages\21.0.1\messages-21.0.1.jar;C:\Users\Admin\.m2\repository\io\cucumber\tag-expressions\5.0.1\tag-expressions-5.0.1.jar;C:\Users\Admin\.m2\repository\io\cucumber\cucumber-expressions\16.1.1\cucumber-expressions-16.1.1.jar;C:\Users\Admin\.m2\repository\io\cucumber\datatable\7.11.0\datatable-7.11.0.jar;C:\Users\Admin\.m2\repository\io\cucumber\cucumber-plugin\7.11.0\cucumber-plugin-7.11.0.jar;C:\Users\Admin\.m2\repository\io\cucumber\docstring\7.11.0\docstring-7.11.0.jar;C:\Users\Admin\.m2\repository\io\cucumber\html-formatter\20.2.1\html-formatter-20.2.1.jar;C:\Users\Admin\.m2\repository\io\cucumber\junit-xml-formatter\0.1.0\junit-xml-formatter-0.1.0.jar;C:\Users\Admin\.m2\repository\io\cucumber\ci-environment\9.1.0\ci-environment-9.1.0.jar;C:\Users\Admin\.m2\repository\org\apache\maven\plugins\maven-compiler-plugin\3.8.0\maven-compiler-plugin-3.8.0.jar;C:\Users\Admin\.m2\repository\org\apache\maven\maven-plugin-api\3.0\maven-plugin-api-3.0.jar;C:\Users\Admin\.m2\repository\org\apache\maven\maven-model\3.0\maven-model-3.0.jar;C:\Users\Admin\.m2\repository\org\sonatype\sisu\sisu-inject-plexus\1.4.2\sisu-inject-plexus-1.4.2.jar;C:\Users\Admin\.m2\repository\org\sonatype\sisu\sisu-inject-bean\1.4.2\sisu-inject-bean-1.4.2.jar;C:\Users\Admin\.m2\repository\org\sonatype\sisu\sisu-guice\2.1.7\sisu-guice-2.1.7-noaop.jar;C:\Users\Admin\.m2\repository\org\apache\maven\maven-artifact\3.0\maven-artifact-3.0.jar;C:\Users\Admin\.m2\repository\org\codehaus\plexus\plexus-utils\2.0.4\plexus-utils-2.0.4.jar;C:\Users\Admin\.m2\repository\org\apache\maven\maven-core\3.0\maven-core-3.0.jar;C:\Users\Admin\.m2\repository\org\apache\maven\maven-settings\3.0\maven-settings-3.0.jar;C:\Users\Admin\.m2\repository\org\apache\maven\maven-settings-builder\3.0\maven-settings-builder-3.0.jar;C:\Users\Admin\.m2\repository\org\apache\maven\maven-repository-metadata\3.0\maven-repository-metadata-3.0.jar;C:\Users\Admin\.m2\repository\org\apache\maven\maven-model-builder\3.0\maven-model-builder-3.0.jar;C:\Users\Admin\.m2\repository\org\apache\maven\maven-aether-provider\3.0\maven-aether-provider-3.0.jar;C:\Users\Admin\.m2\repository\org\sonatype\aether\aether-impl\1.7\aether-impl-1.7.jar;C:\Users\Admin\.m2\repository\org\sonatype\aether\aether-spi\1.7\aether-spi-1.7.jar;C:\Users\Admin\.m2\repository\org\sonatype\aether\aether-api\1.7\aether-api-1.7.jar;C:\Users\Admin\.m2\repository\org\sonatype\aether\aether-util\1.7\aether-util-1.7.jar;C:\Users\Admin\.m2\repository\org\codehaus\plexus\plexus-interpolation\1.14\plexus-interpolation-1.14.jar;C:\Users\Admin\.m2\repository\org\codehaus\plexus\plexus-classworlds\2.2.3\plexus-classworlds-2.2.3.jar;C:\Users\Admin\.m2\repository\org\codehaus\plexus\plexus-component-annotations\1.5.5\plexus-component-annotations-1.5.5.jar;C:\Users\Admin\.m2\repository\org\sonatype\plexus\plexus-sec-dispatcher\1.3\plexus-sec-dispatcher-1.3.jar;C:\Users\Admin\.m2\repository\org\sonatype\plexus\plexus-cipher\1.4\plexus-cipher-1.4.jar;C:\Users\Admin\.m2\repository\org\apache\maven\shared\maven-shared-utils\3.2.1\maven-shared-utils-3.2.1.jar;C:\Users\Admin\.m2\repository\commons-io\commons-io\2.5\commons-io-2.5.jar;C:\Users\Admin\.m2\repository\org\apache\maven\shared\maven-shared-incremental\1.1\maven-shared-incremental-1.1.jar;C:\Users\Admin\.m2\repository\org\codehaus\plexus\plexus-java\0.9.10\plexus-java-0.9.10.jar;C:\Users\Admin\.m2\repository\org\ow2\asm\asm\6.2\asm-6.2.jar;C:\Users\Admin\.m2\repository\com\thoughtworks\qdox\qdox\2.0-M8\qdox-2.0-M8.jar;C:\Users\Admin\.m2\repository\org\codehaus\plexus\plexus-compiler-api\2.8.4\plexus-compiler-api-2.8.4.jar;C:\Users\Admin\.m2\repository\org\codehaus\plexus\plexus-compiler-manager\2.8.4\plexus-compiler-manager-2.8.4.jar;C:\Users\Admin\.m2\repository\org\codehaus\plexus\plexus-compiler-javac\2.8.4\plexus-compiler-javac-2.8.4.jar;C:\Users\Admin\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\Admin\.m2\repository\org\slf4j\slf4j-api\1.7.5\slf4j-api-1.7.5.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Admin"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-10-15"/>
+    <property name="java.home" value="C:\Program Files\Eclipse Adoptium\jdk-11.0.25.9-hotspot"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="F:\Test demo\DemoBdd"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Windows\Temp\surefire8208475620042786776\surefirebooter-20250114180247927_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.25+9"/>
+    <property name="user.name" value="Admin"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-11.0.25+9"/>
+    <property name="localRepository" value="C:\Users\Admin\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Windows\TEMP\"/>
+    <property name="java.version" value="11.0.25"/>
+    <property name="user.dir" value="F:\Test demo\DemoBdd"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-11.0.25.9-hotspot\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Eclipse Adoptium\jdk-11.0.25.9-hotspot\bin;C:\Program Files\Python312\Scripts\;C:\Program Files\Python312\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_202\bin;C:\Program Files\Java\jdk-11\bin;E:\apache-maven-3.9.5\bin;node_modules\npm\bin;E:\allure-2.25.0\bin;C:\Program Files\k6\;D:\androidsdk\platform-tools;D:\androidsdk\build-tools\34.0.0;C:\Program Files\Git LFS;Programs\Python\Python312\python.exe;C:\Program Files\Git\cmd;C:\Users\Admin\AppData\Roaming\Python\Python312\Scripts;c:\users\admin\appdata\roaming\python\python312\site-packages;c:\users\admin\appdata\roaming\python\python312;C:\Program Files (x86)\Groovy\Groovy-2.3.4\bin;C:\Program Files\Java\jdk-17\bin;C:\Users\Admin\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\Admin\AppData\Local\Postman;C:\Program Files\Docker\Docker\resources\bin;C:\Users\Admin\Downloads\Budle\bundletool-all-1.17.2.jar;C:\Users\Admin\Downloads\bundletool-1.17.2\bundletool-1.17.2;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\CodeLLM\bin;C:\Users\Admin\AppData\Local\pnpm;C:\Users\Admin\scoop\shims;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.3\bin;;C:\Program Files\Lens\resources\cli\bin;C:\Users\Admin\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Admin\AppData\Roaming\npm;C:\Users\Admin\AppData\Local\GitHubDesktop\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2024.1\bin;;C:\Users\Admin\AppData\Roaming\nvm;C:\Program Files\nodejs;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="11.0.25+9"/>
+    <property name="java.specification.maintenance.version" value="3"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="Test Signup with invalid user error message data #1" classname="Test Signup Functionality" time="24.878">
+    <system-out><![CDATA[
+@signup
+Scenario Outline: Test Signup with invalid user error message data                                                          &amp#27;[90m# src/test/java/com/taygo/feature/signUp.feature:10&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser on the Signup page&amp#27;[0m                                                                                             &amp#27;[90m# com.taygo.stepDefinations.SignUpPageSteps.userOnTheSignupPage()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enter firstName &amp#27;[0m&amp#27;[32m&amp#27;[1m""&amp#27;[0m&amp#27;[32m, lastName &amp#27;[0m&amp#27;[32m&amp#27;[1m""&amp#27;[0m&amp#27;[32m, email &amp#27;[0m&amp#27;[32m&amp#27;[1m""&amp#27;[0m&amp#27;[32m, mobile &amp#27;[0m&amp#27;[32m&amp#27;[1m""&amp#27;[0m                                                            &amp#27;[90m# com.taygo.stepDefinations.SignUpPageSteps.userEnterFirstNameLastNameEmailMobile(java.lang.String,java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
+name of error lnRequired
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser verify error messages for firstName &amp#27;[0m&amp#27;[32m&amp#27;[1m"Required"&amp#27;[0m&amp#27;[32m, lastName &amp#27;[0m&amp#27;[32m&amp#27;[1m"Required"&amp#27;[0m&amp#27;[32m, email &amp#27;[0m&amp#27;[32m&amp#27;[1m"Required"&amp#27;[0m&amp#27;[32m,and  mobileNum &amp#27;[0m&amp#27;[32m&amp#27;[1m"Required"&amp#27;[0m &amp#27;[90m# com.taygo.stepDefinations.SignUpPageSteps.userVerifyErrorMessagesForFirstNameLastNameEmailAndMobileNum(java.lang.String,java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Jan 14, 2025 6:02:50 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 131, returning the closest version; found: 128; Please update to a Selenium version that supports CDP version 131
+]]></system-err>
+  </testcase>
+  <testcase name="Test Signup with invalid user error message data #2" classname="Test Signup Functionality" time="23.187">
+    <system-out><![CDATA[
+@signup
+Scenario Outline: Test Signup with invalid user error message data                                  &amp#27;[90m# src/test/java/com/taygo/feature/signUp.feature:11&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser on the Signup page&amp#27;[0m                                                                     &amp#27;[90m# com.taygo.stepDefinations.SignUpPageSteps.userOnTheSignupPage()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enter firstName &amp#27;[0m&amp#27;[32m&amp#27;[1m""&amp#27;[0m&amp#27;[32m, lastName &amp#27;[0m&amp#27;[32m&amp#27;[1m"Test"&amp#27;[0m&amp#27;[32m, email &amp#27;[0m&amp#27;[32m&amp#27;[1m"Test@gmail.com"&amp#27;[0m&amp#27;[32m, mobile &amp#27;[0m&amp#27;[32m&amp#27;[1m"8794568798"&amp#27;[0m        &amp#27;[90m# com.taygo.stepDefinations.SignUpPageSteps.userEnterFirstNameLastNameEmailMobile(java.lang.String,java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser verify error messages for firstName &amp#27;[0m&amp#27;[32m&amp#27;[1m"Required"&amp#27;[0m&amp#27;[32m, lastName &amp#27;[0m&amp#27;[32m&amp#27;[1m""&amp#27;[0m&amp#27;[32m, email &amp#27;[0m&amp#27;[32m&amp#27;[1m""&amp#27;[0m&amp#27;[32m,and  mobileNum &amp#27;[0m&amp#27;[32m&amp#27;[1m""&amp#27;[0m &amp#27;[90m# com.taygo.stepDefinations.SignUpPageSteps.userVerifyErrorMessagesForFirstNameLastNameEmailAndMobileNum(java.lang.String,java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Jan 14, 2025 6:03:17 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 131, returning the closest version; found: 128; Please update to a Selenium version that supports CDP version 131
+]]></system-err>
+  </testcase>
+  <testcase name="Test Signup with invalid user error message data #3" classname="Test Signup Functionality" time="19.695">
+    <system-out><![CDATA[
+@signup
+Scenario Outline: Test Signup with invalid user error message data                                  &amp#27;[90m# src/test/java/com/taygo/feature/signUp.feature:12&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser on the Signup page&amp#27;[0m                                                                     &amp#27;[90m# com.taygo.stepDefinations.SignUpPageSteps.userOnTheSignupPage()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enter firstName &amp#27;[0m&amp#27;[32m&amp#27;[1m"Test"&amp#27;[0m&amp#27;[32m, lastName &amp#27;[0m&amp#27;[32m&amp#27;[1m""&amp#27;[0m&amp#27;[32m, email &amp#27;[0m&amp#27;[32m&amp#27;[1m"Test@gmail.com"&amp#27;[0m&amp#27;[32m, mobile &amp#27;[0m&amp#27;[32m&amp#27;[1m"8794568798"&amp#27;[0m        &amp#27;[90m# com.taygo.stepDefinations.SignUpPageSteps.userEnterFirstNameLastNameEmailMobile(java.lang.String,java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
+name of error lnRequired
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser verify error messages for firstName &amp#27;[0m&amp#27;[32m&amp#27;[1m""&amp#27;[0m&amp#27;[32m, lastName &amp#27;[0m&amp#27;[32m&amp#27;[1m"Required"&amp#27;[0m&amp#27;[32m, email &amp#27;[0m&amp#27;[32m&amp#27;[1m""&amp#27;[0m&amp#27;[32m,and  mobileNum &amp#27;[0m&amp#27;[32m&amp#27;[1m""&amp#27;[0m &amp#27;[90m# com.taygo.stepDefinations.SignUpPageSteps.userVerifyErrorMessagesForFirstNameLastNameEmailAndMobileNum(java.lang.String,java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Jan 14, 2025 6:03:38 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 131, returning the closest version; found: 128; Please update to a Selenium version that supports CDP version 131
+]]></system-err>
+  </testcase>
+  <testcase name="Test Signup with invalid user error message data #4" classname="Test Signup Functionality" time="19.977">
+    <system-out><![CDATA[
+@signup
+Scenario Outline: Test Signup with invalid user error message data                                  &amp#27;[90m# src/test/java/com/taygo/feature/signUp.feature:13&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser on the Signup page&amp#27;[0m                                                                     &amp#27;[90m# com.taygo.stepDefinations.SignUpPageSteps.userOnTheSignupPage()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enter firstName &amp#27;[0m&amp#27;[32m&amp#27;[1m"Test"&amp#27;[0m&amp#27;[32m, lastName &amp#27;[0m&amp#27;[32m&amp#27;[1m"Test"&amp#27;[0m&amp#27;[32m, email &amp#27;[0m&amp#27;[32m&amp#27;[1m""&amp#27;[0m&amp#27;[32m, mobile &amp#27;[0m&amp#27;[32m&amp#27;[1m"8794568798"&amp#27;[0m                  &amp#27;[90m# com.taygo.stepDefinations.SignUpPageSteps.userEnterFirstNameLastNameEmailMobile(java.lang.String,java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser verify error messages for firstName &amp#27;[0m&amp#27;[32m&amp#27;[1m""&amp#27;[0m&amp#27;[32m, lastName &amp#27;[0m&amp#27;[32m&amp#27;[1m""&amp#27;[0m&amp#27;[32m, email &amp#27;[0m&amp#27;[32m&amp#27;[1m"Required"&amp#27;[0m&amp#27;[32m,and  mobileNum &amp#27;[0m&amp#27;[32m&amp#27;[1m""&amp#27;[0m &amp#27;[90m# com.taygo.stepDefinations.SignUpPageSteps.userVerifyErrorMessagesForFirstNameLastNameEmailAndMobileNum(java.lang.String,java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Jan 14, 2025 6:03:57 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 131, returning the closest version; found: 128; Please update to a Selenium version that supports CDP version 131
+]]></system-err>
+  </testcase>
+  <testcase name="Test Signup with invalid user error message data #5" classname="Test Signup Functionality" time="19.228">
+    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;[class*=&apos;MuiFormHelperText&apos;]&quot;}&#10;  (Session info: chrome=131.0.6778.265)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception&#10;Build info: version: &apos;4.24.0&apos;, revision: &apos;748ffc9bc3&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.25&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [947b79aebe36d3d58d2139905eeb1d4e, findElement {using=css selector, value=[class*=&apos;MuiFormHelperText&apos;]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.265, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Windows\TEMP\scoped_dir2...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:31902}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:31902/devtoo..., se:cdpVersion: 131.0.6778.265, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 947b79aebe36d3d58d2139905eeb1d4e" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"[class*='MuiFormHelperText']"}
+  (Session info: chrome=131.0.6778.265)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.25'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [947b79aebe36d3d58d2139905eeb1d4e, findElement {using=css selector, value=[class*='MuiFormHelperText']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.265, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Windows\TEMP\scoped_dir2...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:31902}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:31902/devtoo..., se:cdpVersion: 131.0.6778.265, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 947b79aebe36d3d58d2139905eeb1d4e
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at com.taygo.utility.HighlightElementLocator.findElement(HighlightElementLocator.java:28)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy22.getText(Unknown Source)
+	at com.taygo.stepDefinations.SignUpPageSteps.userVerifyErrorMessagesForFirstNameLastNameEmailAndMobileNum(SignUpPageSteps.java:66)
+	at ✽.user verify error messages for firstName "", lastName "", email "Must be a valid email",and  mobileNum ""(file:///F:/Test%20demo/DemoBdd/./src/test/java/com/taygo/feature/signUp.feature:7)
+]]></error>
+    <system-out><![CDATA[
+@signup
+Scenario Outline: Test Signup with invalid user error message data                                               &amp#27;[90m# src/test/java/com/taygo/feature/signUp.feature:14&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser on the Signup page&amp#27;[0m                                                                                  &amp#27;[90m# com.taygo.stepDefinations.SignUpPageSteps.userOnTheSignupPage()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enter firstName &amp#27;[0m&amp#27;[32m&amp#27;[1m"Test"&amp#27;[0m&amp#27;[32m, lastName &amp#27;[0m&amp#27;[32m&amp#27;[1m"Test"&amp#27;[0m&amp#27;[32m, email &amp#27;[0m&amp#27;[32m&amp#27;[1m"Test"&amp#27;[0m&amp#27;[32m, mobile &amp#27;[0m&amp#27;[32m&amp#27;[1m"8794568798"&amp#27;[0m                           &amp#27;[90m# com.taygo.stepDefinations.SignUpPageSteps.userEnterFirstNameLastNameEmailMobile(java.lang.String,java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[31mThen &amp#27;[0m&amp#27;[31muser verify error messages for firstName &amp#27;[0m&amp#27;[31m&amp#27;[1m""&amp#27;[0m&amp#27;[31m, lastName &amp#27;[0m&amp#27;[31m&amp#27;[1m""&amp#27;[0m&amp#27;[31m, email &amp#27;[0m&amp#27;[31m&amp#27;[1m"Must be a valid email"&amp#27;[0m&amp#27;[31m,and  mobileNum &amp#27;[0m&amp#27;[31m&amp#27;[1m""&amp#27;[0m &amp#27;[90m# com.taygo.stepDefinations.SignUpPageSteps.userVerifyErrorMessagesForFirstNameLastNameEmailAndMobileNum(java.lang.String,java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"[class*='MuiFormHelperText']"}
+  (Session info: chrome=131.0.6778.265)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.25'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [947b79aebe36d3d58d2139905eeb1d4e, findElement {using=css selector, value=[class*='MuiFormHelperText']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.265, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Windows\TEMP\scoped_dir2...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:31902}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:31902/devtoo..., se:cdpVersion: 131.0.6778.265, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 947b79aebe36d3d58d2139905eeb1d4e
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at com.taygo.utility.HighlightElementLocator.findElement(HighlightElementLocator.java:28)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy22.getText(Unknown Source)
+	at com.taygo.stepDefinations.SignUpPageSteps.userVerifyErrorMessagesForFirstNameLastNameEmailAndMobileNum(SignUpPageSteps.java:66)
+	at âœ½.user verify error messages for firstName "", lastName "", email "Must be a valid email",and  mobileNum ""(file:///F:/Test%20demo/DemoBdd/./src/test/java/com/taygo/feature/signUp.feature:7)
+&amp#27;[0m
+
+    Embedding Test_Signup_with_invalid_user_error_message_data [image/png 124471 bytes]
+
+]]></system-out>
+    <system-err><![CDATA[Jan 14, 2025 6:04:17 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 131, returning the closest version; found: 128; Please update to a Selenium version that supports CDP version 131
+]]></system-err>
+  </testcase>
+  <testcase name="Test Signup with invalid user error message data #6" classname="Test Signup Functionality" time="21.598">
+    <system-out><![CDATA[
+@signup
+Scenario Outline: Test Signup with invalid user error message data                                  &amp#27;[90m# src/test/java/com/taygo/feature/signUp.feature:15&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser on the Signup page&amp#27;[0m                                                                     &amp#27;[90m# com.taygo.stepDefinations.SignUpPageSteps.userOnTheSignupPage()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enter firstName &amp#27;[0m&amp#27;[32m&amp#27;[1m"Test"&amp#27;[0m&amp#27;[32m, lastName &amp#27;[0m&amp#27;[32m&amp#27;[1m"Test"&amp#27;[0m&amp#27;[32m, email &amp#27;[0m&amp#27;[32m&amp#27;[1m"Test@gmail.com"&amp#27;[0m&amp#27;[32m, mobile &amp#27;[0m&amp#27;[32m&amp#27;[1m""&amp#27;[0m              &amp#27;[90m# com.taygo.stepDefinations.SignUpPageSteps.userEnterFirstNameLastNameEmailMobile(java.lang.String,java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser verify error messages for firstName &amp#27;[0m&amp#27;[32m&amp#27;[1m""&amp#27;[0m&amp#27;[32m, lastName &amp#27;[0m&amp#27;[32m&amp#27;[1m""&amp#27;[0m&amp#27;[32m, email &amp#27;[0m&amp#27;[32m&amp#27;[1m""&amp#27;[0m&amp#27;[32m,and  mobileNum &amp#27;[0m&amp#27;[32m&amp#27;[1m"Required"&amp#27;[0m &amp#27;[90m# com.taygo.stepDefinations.SignUpPageSteps.userVerifyErrorMessagesForFirstNameLastNameEmailAndMobileNum(java.lang.String,java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Jan 14, 2025 6:04:37 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 131, returning the closest version; found: 128; Please update to a Selenium version that supports CDP version 131
+]]></system-err>
+  </testcase>
+  <testcase name="Test Signup with invalid user error message data #7" classname="Test Signup Functionality" time="21.521">
+    <system-out><![CDATA[
+@signup
+Scenario Outline: Test Signup with invalid user error message data                                                         &amp#27;[90m# src/test/java/com/taygo/feature/signUp.feature:16&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser on the Signup page&amp#27;[0m                                                                                            &amp#27;[90m# com.taygo.stepDefinations.SignUpPageSteps.userOnTheSignupPage()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enter firstName &amp#27;[0m&amp#27;[32m&amp#27;[1m"Test"&amp#27;[0m&amp#27;[32m, lastName &amp#27;[0m&amp#27;[32m&amp#27;[1m"Test"&amp#27;[0m&amp#27;[32m, email &amp#27;[0m&amp#27;[32m&amp#27;[1m"Test@gmail.com"&amp#27;[0m&amp#27;[32m, mobile &amp#27;[0m&amp#27;[32m&amp#27;[1m"879456879"&amp#27;[0m                            &amp#27;[90m# com.taygo.stepDefinations.SignUpPageSteps.userEnterFirstNameLastNameEmailMobile(java.lang.String,java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser verify error messages for firstName &amp#27;[0m&amp#27;[32m&amp#27;[1m""&amp#27;[0m&amp#27;[32m, lastName &amp#27;[0m&amp#27;[32m&amp#27;[1m""&amp#27;[0m&amp#27;[32m, email &amp#27;[0m&amp#27;[32m&amp#27;[1m""&amp#27;[0m&amp#27;[32m,and  mobileNum &amp#27;[0m&amp#27;[32m&amp#27;[1m"Please enter valid phone number"&amp#27;[0m &amp#27;[90m# com.taygo.stepDefinations.SignUpPageSteps.userVerifyErrorMessagesForFirstNameLastNameEmailAndMobileNum(java.lang.String,java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Jan 14, 2025 6:04:58 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 131, returning the closest version; found: 128; Please update to a Selenium version that supports CDP version 131
+]]></system-err>
+  </testcase>
+  <testcase name="User signup with loan officer" classname="Test Signup Functionality" time="268.532">
+    <system-out><![CDATA[
+@signup @signupWithLoanOfficer
+Scenario Outline: User signup with loan officer                                                                                                                                                                                                   &amp#27;[90m# src/test/java/com/taygo/feature/signUp.feature:35&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser on the Signup page&amp#27;[0m                                                                                                                                                                                                                   &amp#27;[90m# com.taygo.stepDefinations.SignUpPageSteps.userOnTheSignupPage()&amp#27;[0m
+teste print: uday011425180525@getnada.com
+test1uday011425180525@getnada.com
+testuday011425180525@getnada.com
+endpointUrlhttps://inboxes.com/api/v2/inbox/uday011425180525@getnada.com
+Response data:
+{"msgs":[]}
+uidnull
+test1uday011425180525@getnada.com
+testuday011425180525@getnada.com
+endpointUrlhttps://inboxes.com/api/v2/inbox/uday011425180525@getnada.com
+Response data:
+{"msgs":[{"uid":"yOuIvQmpvalMRcRezRARgHVXrYwCQg","f":"no-reply@taygo.co...","s":"[TAYGO]: Your Verification Code for Account...","d":false,"at":[],"cr":"2025-01-14T12:35:40.811Z","r":1736858141,"ph":"[https://cms.taygo.tech/whitelabel/de...","rr":"11 secs ago","ib":"uday011425180525@getnada.com"}]}
+uidyOuIvQmpvalMRcRezRARgHVXrYwCQg
+Raw Response Body: {"uid":"yOuIvQmpvalMRcRezRARgHVXrYwCQg","f":"no-reply@taygo.com","ff":[{"address":"no-reply@taygo.com","name":""}],"s":"[TAYGO]: Your Verification Code for Account...","d":false,"at":[],"cr":"2025-01-14T12:35:40.811Z","r":1736858141,"html":"<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\"><html xmlns=\"http://www.w3.org/1999/xhtml\"><head><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"/><title></title><style></style></head><body style=\"font-family: Arial,serif\"><table bgcolor=\"#FBFBFB\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" height=\"100%\" width=\"100%\" id=\"bodyTable\"><tr><td align=\"center\" valign=\"top\"><table border=\"0\" cellpadding=\"20\" cellspacing=\"0\" id=\"emailContainer\" style=\"max-width: 500px;\"><tr><td align=\"center\" valign=\"top\"><table border=\"0\" cellpadding=\"20\" cellspacing=\"0\" width=\"100%\" id=\"emailHeader\"><tr><td align=\"center\" valign=\"top\"> <img src=\"https://cms.taygo.tech/whitelabel/default_dev/images/logo_dark_green.png\" style=\"max-height:50px\"/></td></tr></table></td></tr><tr><td align=\"center\" valign=\"top\" bgcolor=\"white\" style=\"border: 1px solid #E4E2E2; border-radius: 5px;\"\"><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" id=\"emailBody\" style=\"max-width: 560px;\"><tr width=\"100%\"><td width=\"100%\" align=\"left\"><table width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\"><tbody width=\"100%\"><tr><td style=\"font-size: 1.5em; line-height: 1.5em; color: #2B3754; padding: 30px 25px 20px; font-weight: 600\" align=\"center\" valign=\"top\"> Welcome to TAYGO, loanofficer test!</td></tr><tr><td style=\"font-size:  1.1em; line-height: 1.5em; padding: 0 25px 20px 25px;\" align=\"center\" valign=\"top\"> To complete your account setup, please use the following verification code:\n    <br> <br>  \n    <div\n     style=\"\n        padding: 10px 30px; \n        border: 1px solid; \n        border-radius: 4px; \n        border-color: #D2D7D6; \n        font-size: 1.5rem; \n        width: 120px;\n        text-align: center;\n        display: flex;\n        justify-content: center;\n        box-sizing: content-box;\n      \"\n    >\n      <b> ?9fvVUUg </b>\n    </div>\n    <br><br>Click the button below to proceed with the verification</td></tr><tr><td height=\"20\"></td></tr><tr><td style=\"font-size: 3.2em; line-height: 1.5em; padding: 0 25px 30px 25px;\" align=\"center\" valign=\"top\"><table width=\"170\" cellpadding=\"0\" cellspacing=\"0\" align=\"center\" border=\"0\" style=\"width:170px\"><tbody><tr><td width=\"170\" height=\"56\" bgcolor=\"#018270\" align=\"center\" valign=\"middle\" style=\"font-family:Arial,sans-serif;font-size:16px;color:#ffffff;line-height:1.6em;font-weight:bold; border-radius: 4px;\"> <a href=\"http://email.support.taygo.com/c/eJyEjcFqhTAQAL8mHmWzm43xkEOh9T_WZKOC7ykaBf--tPTe8wwzOXr1yqnRaDvygYN10MzR9c46BBH2Ywmph05p1DERaW8lSLNEBGSw1lkkptCOBTwUEcy-o5LIODivfd-O2lZ5pq1N26tZ41zrfhr6MDgYHNK6XfmPV02zweFcpve1GxpuPZbyfL1kWQ19XlmenxuyDcDIxsGk9S1ZfsNH_Ee4I34HAAD__4ZCRm0\" style=\"font-family:Arial,sans-serif;text-decoration:none;color:#ffffff;height:46px;padding-top:11px;box-sizing:border-box;display:block;text-align:center;border-radius:50px\" target=\"_blank\">VERIFY</a></td></tr></tbody></table></td></tr><tr><td><b> Important: </b> This code is valid for 24 hours. To ensure a smooth setup process, please enter the code promptly.</td></tr></tbody></table></td></tr></table></td></tr><tr><td align=\"center\" valign=\"top\"><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" id=\"emailFooter\"><tr><td align=\"center\" valign=\"top\"></td></tr><tr><td align=\"center\" valign=\"top\"><div style=\"font-size: 20px; \"> &nbsp;</div></td></tr><tr><td align=\"center\" valign=\"top\"><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" id=\"emailBody\"><tr><td align=\"right\" valign=\"top\" width=\"270px\"><a style=\"font-size: 12px; color: #aaa; font-weight: 600; font-family: arial; text-decoration: none;\" href=\"http://email.support.taygo.com/c/eJwczUGOwyAMQNHTwDIyBhuyYDGb3MMB04ymLVFLJ-rtq2b_9H_NrKxUrGYXPSdKLoDdsp-rAjSeKcaU5iBcYph908IlrEj2NyMggXPBoSefprUBQxPBytG34k2A52vf-2NMQ96XPpV-s9e8jbE_jf8xuBhcjuOYmhRde__7AoPLibd-02uXu8HFPvKryvt7QnIJCMkEuOi4S5Uz-p_xEwAA___cMjro\" target=\"_blank\"><div style=\" padding: 5px;border-radius: 21px;\"> <img style=\"background-color: #018270\" src=\"https://cdn2.taygo.com/f7dd-1c0f-8da3-8559/media/image/media_1602531984388_wphk0a9f/resize/32x32/png\"/></div></a></td><td width=\"20px\"></td><td align=\"center\" valign=\"top\" width=\"20px\"><a style=\"font-size: 12px; color: #aaa; font-weight: 600; font-family: arial; text-decoration: none;\" href=\"http://email.support.taygo.com/c/eJwczDluhjAQQOHT2CWaxWOcwkUa7jF4AaQEEJgo3P4XtE9PX46--CLJlog9-yABHdg55gAgBFp6Qs1FlDwjYP4aoRJysEskIAFEh8TCoRsreKiqlH3PNbFxcF77vh2ta3pPW5e2X_sT59b20_C3ocHQ8P9UQ8N7LGuyR7yy3g9LggGExDiYSls16yv8RfoEAAD__15PM6E\" target=\"_blank\"><div style=\"padding: 5px;border-radius: 21px;\"> <img style=\"background-color: #018270; border-radius: 50px; height: 32px; width: 32px;\" src=\"https://cms.taygo.tech/business/images/twitterIcon.png\"/></div></a></td><td width=\"20px\"></td><td align=\"left\" valign=\"top\" width=\"270px\"><a style=\"font-size: 12px; color: #aaa; font-weight: 600; font-family: arial; text-decoration: none;\" href=\"http://email.support.taygo.com/c/eJwkzU2OhCAQQOHTwNIUVRTSCxaTTLhHyY-adKNRekzffuLM_st7ObjiCiddghnJefbGgl6Cd_Cwk69VhKdMVIjTo9JY0PmcyOg1ICCDMdYgMflhquCgimB2I9VEysL53vft6EOXz7wNaXvpZ1h6309FXwqjwnhd17C2s8t8yOsWCuO_Xlu6CcXlqei7NH2Ed5bPPUQ2HhhZWZhLb5Llr_0T8DcAAP__vSk86A\" target=\"_blank\"><div style=\"padding: 5px;border-radius: 21px;\"> <img style=\"background-color: #018270\" src=\"https://cdn2.taygo.com/f7dd-1c0f-8da3-8559/media/image/media_1602531984388_vgp3o71u/resize/32x32/png\"/></div></a></td></tr></table></td></tr><tr><td align=\"center\" valign=\"top\"><div style=\"font-size: 20px; \"> &nbsp;</div></td></tr><tr><td align=\"center\" valign=\"top\"><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" id=\"emailBody\"><tr><td align=\"right\" valign=\"top\" width=\"270px\"> <a style=\"font-size: 12px; color: #aaa; font-weight: 300; font-family: arial; text-decoration: underline;\" href=\"http://email.support.taygo.com/c/eJwszc1qhTAQQOGnSZYyM_lxNll042uUMRmvgm2CNwp5-9LS9YHzlRQ1ashWE84ucmD0YPdUIKoj5jADsIfoeRXUGZUUVwK0RyKgAIgeyQXH07pBhE2ESpzdlp3x8L5bq1efuoxXnXL9smfae29v4z4MLYaWfNa7_PeueTe0tOt4JI_PVs8jD3ulu8j4dSggQ6BgPLy0f0uRv-WT6CcAAP__IJA6NA\" target=\"_blank\">Privacy Policy</a></td><td width=\"30px\"></td><td padding=\"0\" bgcolor=\"#aaa\" width=\"2px\" align=\"right\" valign=\"top\"></td><td width=\"30px\"></td><td align=\"left\" valign=\"top\" width=\"270px\"> <a style=\"font-size: 12px; color: #aaa; font-weight: 300; font-family: arial; text-decoration: underline;\" href=\"mailto:support@taygo.com\" target=\"_blank\">Contact Support</a></td></tr></table></td></tr><tr><td align=\"center\" valign=\"top\"><div style=\"font-size: 20px; \"> &nbsp;</div></td></tr><tr><td align=\"center\" valign=\"top\"><div style=\"font-size: 12px; color: #aaa; font-weight: 300; font-family: Arial;\"> San Mateo, CA 94402&nbsp;&nbsp;&nbsp;&nbsp;© 2025 TAYGO - All Rights Reserved</div></td></tr><tr><td align=\"center\" valign=\"top\"><div style=\"font-size: 20px; \"> &nbsp;</div></td></tr><tr><td align=\"center\" valign=\"top\"><div style=\"font-size: 20px; \"> &nbsp;</div></td></tr><tr><td align=\"center\" valign=\"top\"><div style=\"font-size: 12px; color: #aaa; font-weight: 300; font-family: Arial;\"> You are receiving this email because you signed up to <a href=\"http://email.support.taygo.com/c/eJwszEtuhSAUANDVwNBc7gdwwKCTt48rH21ii1Fs4u6bNm98klOSr75KtjW5QD5KdAx2S6EAzYQqKN4RcOTGC9dlVqYwA9rPhIACzrFDEorT0sBDU8XiA7VMhuG6j6OfYxr6rH3K_cvuaRvjuAx9GHwZfOW93-Xto-bNnuku-vy1KC6CoBiGtY5vLfo__CT8DQAA__8tMzOG\" style=\"font-size: 12px; color: #aaa; font-weight: 300; font-family: Arial;\" >https://cloud.taygo.tech</a > with uday011425180525@getnada.com</div></td></tr><tr><td align=\"center\" valign=\"top\"><div style=\"font-size: 10px; \"> &nbsp;</div></td></tr><tr><td align=\"center\" valign=\"top\"><div style=\"font-size: 12px; color: #aaa; font-weight: 300; font-family: Arial; display: none;\"> Your user id: undefined</div></td></tr><tr><td align=\"center\" valign=\"top\"><div style=\"font-size: 12px; color: #888; font-family: Arial;\"> &nbsp;</div></td></tr></table></td></tr></table></td></tr></table><img width=\"1\" height=\"1\" alt=\"\" src=\"http://email.support.taygo.com/o/eJwcy8EOgjAMANCvYUfSdm2ph31M2Tr0oBAEE_7e6P29VjQ0pKYoOGU1MWRI92JVWSPQjHvMrbNS7ZMjAmS4qaRHISABREbKkm2cOyh0d2o65V7zwPA-t23dj_Hwa1nHuj7TXs7m12-RoIGQDAxLHC9v_gefQt8AAAD__2m6KUA\"></body></html>\n","text":"[https://cms.taygo.tech/whitelabel/default_dev/images/logo_dark_green.png]\n\nWelcome to TAYGO, loanofficer test! To complete your account setup, please use\nthe following verification code:\n\n\n?9fvVUUg\n\n\nClick the button below to proceed with the verification\n\nVERIFY\n[http://email.support.taygo.com/c/eJyEjcFqhTAQAL8mHmWzm43xkEOh9T_WZKOC7ykaBf--tPTe8wwzOXr1yqnRaDvygYN10MzR9c46BBH2Ywmph05p1DERaW8lSLNEBGSw1lkkptCOBTwUEcy-o5LIODivfd-O2lZ5pq1N26tZ41zrfhr6MDgYHNK6XfmPV02zweFcpve1GxpuPZbyfL1kWQ19XlmenxuyDcDIxsGk9S1ZfsNH_Ee4I34HAAD__4ZCRm0]\n\nImportant: This code is valid for 24 hours. To ensure a smooth setup process,\nplease enter the code promptly.\n\n \n[https://cdn2.taygo.com/f7dd-1c0f-8da3-8559/media/image/media_1602531984388_wphk0a9f/resize/32x32/png]\nhttp://email.support.taygo.com/c/eJwczUGOwyAMQNHTwDIyBhuyYDGb3MMB04ymLVFLJ-rtq2b_9H_NrKxUrGYXPSdKLoDdsp-rAjSeKcaU5iBcYph908IlrEj2NyMggXPBoSefprUBQxPBytG34k2A52vf-2NMQ96XPpV-s9e8jbE_jf8xuBhcjuOYmhRde__7AoPLibd-02uXu8HFPvKryvt7QnIJCMkEuOi4S5Uz-p_xEwAA___cMjro\n[https://cms.taygo.tech/business/images/twitterIcon.png]\nhttp://email.support.taygo.com/c/eJwczDluhjAQQOHT2CWaxWOcwkUa7jF4AaQEEJgo3P4XtE9PX46--CLJlog9-yABHdg55gAgBFp6Qs1FlDwjYP4aoRJysEskIAFEh8TCoRsreKiqlH3PNbFxcF77vh2ta3pPW5e2X_sT59b20_C3ocHQ8P9UQ8N7LGuyR7yy3g9LggGExDiYSls16yv8RfoEAAD__15PM6E\n[https://cdn2.taygo.com/f7dd-1c0f-8da3-8559/media/image/media_1602531984388_vgp3o71u/resize/32x32/png]\nhttp://email.support.taygo.com/c/eJwkzU2OhCAQQOHTwNIUVRTSCxaTTLhHyY-adKNRekzffuLM_st7ObjiCiddghnJefbGgl6Cd_Cwk69VhKdMVIjTo9JY0PmcyOg1ICCDMdYgMflhquCgimB2I9VEysL53vft6EOXz7wNaXvpZ1h6309FXwqjwnhd17C2s8t8yOsWCuO_Xlu6CcXlqei7NH2Ed5bPPUQ2HhhZWZhLb5Llr_0T8DcAAP__vSk86A\n\n \n\nPrivacy Policy\n[http://email.support.taygo.com/c/eJwszc1qhTAQQOGnSZYyM_lxNll042uUMRmvgm2CNwp5-9LS9YHzlRQ1ashWE84ucmD0YPdUIKoj5jADsIfoeRXUGZUUVwK0RyKgAIgeyQXH07pBhE2ESpzdlp3x8L5bq1efuoxXnXL9smfae29v4z4MLYaWfNa7_PeueTe0tOt4JI_PVs8jD3ulu8j4dSggQ6BgPLy0f0uRv-WT6CcAAP__IJA6NA]\nContact Support [support@taygo.com]\n\n \nSan Mateo, CA 94402    © 2025 TAYGO - All Rights Reserved\n \n \nYou are receiving this email because you signed up to https://cloud.taygo.tech\n[http://email.support.taygo.com/c/eJwszEtuhSAUANDVwNBc7gdwwKCTt48rH21ii1Fs4u6bNm98klOSr75KtjW5QD5KdAx2S6EAzYQqKN4RcOTGC9dlVqYwA9rPhIACzrFDEorT0sBDU8XiA7VMhuG6j6OfYxr6rH3K_cvuaRvjuAx9GHwZfOW93-Xto-bNnuku-vy1KC6CoBiGtY5vLfo__CT8DQAA__8tMzOG]\nwith uday011425180525@getnada.com\n \nYour user id: undefined\n \n\n[http://email.support.taygo.com/o/eJwcy8EOgjAMANCvYUfSdm2ph31M2Tr0oBAEE_7e6P29VjQ0pKYoOGU1MWRI92JVWSPQjHvMrbNS7ZMjAmS4qaRHISABREbKkm2cOyh0d2o65V7zwPA-t23dj_Hwa1nHuj7TXs7m12-RoIGQDAxLHC9v_gefQt8AAAD__2m6KUA]","ru":true,"sf":"no-reply@taygo.co...","rr":"12 secs ago","short_html":"<table bgcolor=\"#FBFBFB\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" height=\"100%\" width=\"100%\" id=\"bodyTable\"><tbody><tr><td align=\"center\" valign=\"top\"><table border=\"0\" cellpadding=\"20\" cellspacing=\"0\" id=\"emailContainer\" style=\"max-width: 500px;\"><tbody><tr><td align=\"center\" valign=\"top\"><table border=\"0\" cellpadding=\"20\" cellspacing=\"0\" width=\"100%\" id=\"emailHeader\"><tbody><tr><td align=\"center\" valign=\"top\"> <img src=\"https://cms.taygo.tech/whitelabel/default_dev/images/logo_dark_green.png\" style=\"max-height:50px\"></td></tr></tbody></table></td></tr><tr><td align=\"center\" valign=\"top\" bgcolor=\"white\" style=\"border: 1px solid #E4E2E2; border-radius: 5px;\" \"=\"\"><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" id=\"emailBody\" style=\"max-width: 560px;\"><tbody><tr width=\"100%\"><td width=\"100%\" align=\"left\"><table width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\"><tbody width=\"100%\"><tr><td style=\"font-size: 1.5em; line-height: 1.5em; color: #2B3754; padding: 30px 25px 20px; font-weight: 600\" align=\"center\" valign=\"top\"> Welcome to TAYGO, loanofficer test!</td></tr><tr><td style=\"font-size:  1.1em; line-height: 1.5em; padding: 0 25px 20px 25px;\" align=\"center\" valign=\"top\"> To complete your account setup, please use the following verification code:\n    <br> <br>  \n    <div style=\"\n        padding: 10px 30px; \n        border: 1px solid; \n        border-radius: 4px; \n        border-color: #D2D7D6; \n        font-size: 1.5rem; \n        width: 120px;\n        text-align: center;\n        display: flex;\n        justify-content: center;\n        box-sizing: content-box;\n      \">\n      <b> ?9fvVUUg </b>\n    </div>\n    <br><br>Click the button below to proceed with the verification</td></tr><tr><td height=\"20\"></td></tr><tr><td style=\"font-size: 3.2em; line-height: 1.5em; padding: 0 25px 30px 25px;\" align=\"center\" valign=\"top\"><table width=\"170\" cellpadding=\"0\" cellspacing=\"0\" align=\"center\" border=\"0\" style=\"width:170px\"><tbody><tr><td width=\"170\" height=\"56\" bgcolor=\"#018270\" align=\"center\" valign=\"middle\" style=\"font-family:Arial,sans-serif;font-size:16px;color:#ffffff;line-height:1.6em;font-weight:bold; border-radius: 4px;\"> <a href=\"http://email.support.taygo.com/c/eJyEjcFqhTAQAL8mHmWzm43xkEOh9T_WZKOC7ykaBf--tPTe8wwzOXr1yqnRaDvygYN10MzR9c46BBH2Ywmph05p1DERaW8lSLNEBGSw1lkkptCOBTwUEcy-o5LIODivfd-O2lZ5pq1N26tZ41zrfhr6MDgYHNK6XfmPV02zweFcpve1GxpuPZbyfL1kWQ19XlmenxuyDcDIxsGk9S1ZfsNH_Ee4I34HAAD__4ZCRm0\" style=\"font-family:Arial,sans-serif;text-decoration:none;color:#ffffff;height:46px;padding-top:11px;box-sizing:border-box;display:block;text-align:center;border-radius:50px\" target=\"_blank\">VERIFY</a></td></tr></tbody></table></td></tr><tr><td><b> Important: </b> This code is valid for 24 hours. To ensure a smooth setup process, please enter the code promptly.</td></tr></tbody></table></td></tr></tbody></table></td></tr><tr><td align=\"center\" valign=\"top\"><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" id=\"emailFooter\"><tbody><tr><td align=\"center\" valign=\"top\"></td></tr><tr><td align=\"center\" valign=\"top\"><div style=\"font-size: 20px; \"> &nbsp;</div></td></tr><tr><td align=\"center\" valign=\"top\"><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" id=\"emailBody\"><tbody><tr><td align=\"right\" valign=\"top\" width=\"270px\"><a style=\"font-size: 12px; color: #aaa; font-weight: 600; font-family: arial; text-decoration: none;\" href=\"http://email.support.taygo.com/c/eJwczUGOwyAMQNHTwDIyBhuyYDGb3MMB04ymLVFLJ-rtq2b_9H_NrKxUrGYXPSdKLoDdsp-rAjSeKcaU5iBcYph908IlrEj2NyMggXPBoSefprUBQxPBytG34k2A52vf-2NMQ96XPpV-s9e8jbE_jf8xuBhcjuOYmhRde__7AoPLibd-02uXu8HFPvKryvt7QnIJCMkEuOi4S5Uz-p_xEwAA___cMjro\" target=\"_blank\"><div style=\" padding: 5px;border-radius: 21px;\"> <img style=\"background-color: #018270\" src=\"https://cdn2.taygo.com/f7dd-1c0f-8da3-8559/media/image/media_1602531984388_wphk0a9f/resize/32x32/png\"></div></a></td><td width=\"20px\"></td><td align=\"center\" valign=\"top\" width=\"20px\"><a style=\"font-size: 12px; color: #aaa; font-weight: 600; font-family: arial; text-decoration: none;\" href=\"http://email.support.taygo.com/c/eJwczDluhjAQQOHT2CWaxWOcwkUa7jF4AaQEEJgo3P4XtE9PX46--CLJlog9-yABHdg55gAgBFp6Qs1FlDwjYP4aoRJysEskIAFEh8TCoRsreKiqlH3PNbFxcF77vh2ta3pPW5e2X_sT59b20_C3ocHQ8P9UQ8N7LGuyR7yy3g9LggGExDiYSls16yv8RfoEAAD__15PM6E\" target=\"_blank\"><div style=\"padding: 5px;border-radius: 21px;\"> <img style=\"background-color: #018270; border-radius: 50px; height: 32px; width: 32px;\" src=\"https://cms.taygo.tech/business/images/twitterIcon.png\"></div></a></td><td width=\"20px\"></td><td align=\"left\" valign=\"top\" width=\"270px\"><a style=\"font-size: 12px; color: #aaa; font-weight: 600; font-family: arial; text-decoration: none;\" href=\"http://email.support.taygo.com/c/eJwkzU2OhCAQQOHTwNIUVRTSCxaTTLhHyY-adKNRekzffuLM_st7ObjiCiddghnJefbGgl6Cd_Cwk69VhKdMVIjTo9JY0PmcyOg1ICCDMdYgMflhquCgimB2I9VEysL53vft6EOXz7wNaXvpZ1h6309FXwqjwnhd17C2s8t8yOsWCuO_Xlu6CcXlqei7NH2Ed5bPPUQ2HhhZWZhLb5Llr_0T8DcAAP__vSk86A\" target=\"_blank\"><div style=\"padding: 5px;border-radius: 21px;\"> <img style=\"background-color: #018270\" src=\"https://cdn2.taygo.com/f7dd-1c0f-8da3-8559/media/image/media_1602531984388_vgp3o71u/resize/32x32/png\"></div></a></td></tr></tbody></table></td></tr><tr><td align=\"center\" valign=\"top\"><div style=\"font-size: 20px; \"> &nbsp;</div></td></tr><tr><td align=\"center\" valign=\"top\"><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" id=\"emailBody\"><tbody><tr><td align=\"right\" valign=\"top\" width=\"270px\"> <a style=\"font-size: 12px; color: #aaa; font-weight: 300; font-family: arial; text-decoration: underline;\" href=\"http://email.support.taygo.com/c/eJwszc1qhTAQQOGnSZYyM_lxNll042uUMRmvgm2CNwp5-9LS9YHzlRQ1ashWE84ucmD0YPdUIKoj5jADsIfoeRXUGZUUVwK0RyKgAIgeyQXH07pBhE2ESpzdlp3x8L5bq1efuoxXnXL9smfae29v4z4MLYaWfNa7_PeueTe0tOt4JI_PVs8jD3ulu8j4dSggQ6BgPLy0f0uRv-WT6CcAAP__IJA6NA\" target=\"_blank\">Privacy Policy</a></td><td width=\"30px\"></td><td padding=\"0\" bgcolor=\"#aaa\" width=\"2px\" align=\"right\" valign=\"top\"></td><td width=\"30px\"></td><td align=\"left\" valign=\"top\" width=\"270px\"> <a style=\"font-size: 12px; color: #aaa; font-weight: 300; font-family: arial; text-decoration: underline;\" href=\"http://mailto:support@taygo.com\" target=\"_blank\">Contact Support</a></td></tr></tbody></table></td></tr><tr><td align=\"center\" valign=\"top\"><div style=\"font-size: 20px; \"> &nbsp;</div></td></tr><tr><td align=\"center\" valign=\"top\"><div style=\"font-size: 12px; color: #aaa; font-weight: 300; font-family: Arial;\"> San Mateo, CA 94402&nbsp;&nbsp;&nbsp;&nbsp;© 2025 TAYGO - All Rights Reserved</div></td></tr><tr><td align=\"center\" valign=\"top\"><div style=\"font-size: 20px; \"> &nbsp;</div></td></tr><tr><td align=\"center\" valign=\"top\"><div style=\"font-size: 20px; \"> &nbsp;</div></td></tr><tr><td align=\"center\" valign=\"top\"><div style=\"font-size: 12px; color: #aaa; font-weight: 300; font-family: Arial;\"> You are receiving this email because you signed up to <a href=\"http://email.support.taygo.com/c/eJwszEtuhSAUANDVwNBc7gdwwKCTt48rH21ii1Fs4u6bNm98klOSr75KtjW5QD5KdAx2S6EAzYQqKN4RcOTGC9dlVqYwA9rPhIACzrFDEorT0sBDU8XiA7VMhuG6j6OfYxr6rH3K_cvuaRvjuAx9GHwZfOW93-Xto-bNnuku-vy1KC6CoBiGtY5vLfo__CT8DQAA__8tMzOG\" style=\"font-size: 12px; color: #aaa; font-weight: 300; font-family: Arial;\" target=\"_blank\">https://cloud.taygo.tech</a> with uday011425180525@getnada.com</div></td></tr><tr><td align=\"center\" valign=\"top\"><div style=\"font-size: 10px; \"> &nbsp;</div></td></tr><tr><td align=\"center\" valign=\"top\"><div style=\"font-size: 12px; color: #aaa; font-weight: 300; font-family: Arial; display: none;\"> Your user id: undefined</div></td></tr><tr><td align=\"center\" valign=\"top\"><div style=\"font-size: 12px; color: #888; font-family: Arial;\"> &nbsp;</div></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table><img width=\"1\" height=\"1\" alt=\"\" src=\"http://email.support.taygo.com/o/eJwcy8EOgjAMANCvYUfSdm2ph31M2Tr0oBAEE_7e6P29VjQ0pKYoOGU1MWRI92JVWSPQjHvMrbNS7ZMjAmS4qaRHISABREbKkm2cOyh0d2o65V7zwPA-t23dj_Hwa1nHuj7TXs7m12-RoIGQDAxLHC9v_gefQt8AAAD__2m6KUA\">\n"}
+First <b> Tag Value:  ?9fvVUUg 
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enter firstName &amp#27;[0m&amp#27;[32m&amp#27;[1m"loanofficer"&amp#27;[0m&amp#27;[32m, lastName &amp#27;[0m&amp#27;[32m&amp#27;[1m"test"&amp#27;[0m&amp#27;[32m, mobile &amp#27;[0m&amp#27;[32m&amp#27;[1m"5182610312"&amp#27;[0m                                                                                                                                                                   &amp#27;[90m# com.taygo.stepDefinations.SignUpPageSteps.userEnterFirstNameLastNameMobile(java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
+wait meor the 
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser set the password &amp#27;[0m&amp#27;[32m&amp#27;[1m"Test@1234"&amp#27;[0m                                                                                                                                                                                                           &amp#27;[90m# com.taygo.stepDefinations.SignUpPageSteps.userSetThePassword(java.lang.String)&amp#27;[0m
+Element eorg.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: chrome=131.0.6778.265)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.25'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7224294da64fb1fc20b8d7e767537459, getElementAttribute {name=style, id=f.BB47DF15598508F27797243D98C9589B.d.94D143D856AA8D1CA44E9F7123963361.e.77}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.265, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Windows\TEMP\scoped_dir2...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:32090}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:32090/devtoo..., se:cdpVersion: 131.0.6778.265, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (7224294da64fb1fc20b8d7e767537459)] -> xpath: //div[contains(@id,'react-select-3-option')]/descendant::p]
+Session ID: 7224294da64fb1fc20b8d7e767537459
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser fill the individual information JobTitle &amp#27;[0m&amp#27;[32m&amp#27;[1m"TestJob"&amp#27;[0m&amp#27;[32m NMLS_ID &amp#27;[0m&amp#27;[32m&amp#27;[1m"123456"&amp#27;[0m&amp#27;[32m Address1 &amp#27;[0m&amp#27;[32m&amp#27;[1m"USA"&amp#27;[0m&amp#27;[32m Address2 &amp#27;[0m&amp#27;[32m&amp#27;[1m"UK"&amp#27;[0m&amp#27;[32m City &amp#27;[0m&amp#27;[32m&amp#27;[1m"New York"&amp#27;[0m&amp#27;[32m ZipCode &amp#27;[0m&amp#27;[32m&amp#27;[1m"10001"&amp#27;[0m&amp#27;[32m State &amp#27;[0m&amp#27;[32m&amp#27;[1m"Alaska"&amp#27;[0m                                                                                        &amp#27;[90m# com.taygo.stepDefinations.SignUpPageSteps.userFillTheIndividualInformation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
+Company Type name:Brokerage
+Company Type name:Retail
+Element eorg.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: chrome=131.0.6778.265)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.25'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7224294da64fb1fc20b8d7e767537459, getElementAttribute {name=style, id=f.BB47DF15598508F27797243D98C9589B.d.94D143D856AA8D1CA44E9F7123963361.e.156}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.265, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Windows\TEMP\scoped_dir2...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:32090}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:32090/devtoo..., se:cdpVersion: 131.0.6778.265, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (7224294da64fb1fc20b8d7e767537459)] -> xpath: //div[@data-id='Menu_List']/descendant::p]
+Session ID: 7224294da64fb1fc20b8d7e767537459
+Company State name:Alabama
+Company State name:Alaska
+Element eorg.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: chrome=131.0.6778.265)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.25'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7224294da64fb1fc20b8d7e767537459, getElementAttribute {name=style, id=f.BB47DF15598508F27797243D98C9589B.d.94D143D856AA8D1CA44E9F7123963361.e.167}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.265, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Windows\TEMP\scoped_dir2...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:32090}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:32090/devtoo..., se:cdpVersion: 131.0.6778.265, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (7224294da64fb1fc20b8d7e767537459)] -> xpath: //div[@data-id='Menu_List']/descendant::p]
+Session ID: 7224294da64fb1fc20b8d7e767537459
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser fill the company information CompanyName &amp#27;[0m&amp#27;[32m&amp#27;[1m"SMTP_Test"&amp#27;[0m&amp#27;[32m CompanyNMLSID &amp#27;[0m&amp#27;[32m&amp#27;[1m"123456"&amp#27;[0m&amp#27;[32m CompanyType &amp#27;[0m&amp#27;[32m&amp#27;[1m"Retail"&amp#27;[0m&amp#27;[32m Address1 &amp#27;[0m&amp#27;[32m&amp#27;[1m"USA"&amp#27;[0m&amp#27;[32m Address2nd &amp#27;[0m&amp#27;[32m&amp#27;[1m"UK"&amp#27;[0m&amp#27;[32m City &amp#27;[0m&amp#27;[32m&amp#27;[1m"New York"&amp#27;[0m&amp#27;[32m ZipCode &amp#27;[0m&amp#27;[32m&amp#27;[1m"10001"&amp#27;[0m&amp#27;[32m State &amp#27;[0m&amp#27;[32m&amp#27;[1m"Alaska"&amp#27;[0m&amp#27;[32m LoanOfficers &amp#27;[0m&amp#27;[32m&amp#27;[1m"5"&amp#27;[0m&amp#27;[32m WebSiteURL &amp#27;[0m&amp#27;[32m&amp#27;[1m"https://cloud.taygo.tech/"&amp#27;[0m &amp#27;[90m# com.taygo.stepDefinations.SignUpPageSteps.companyInformation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
+Response Body:
+<!DOCTYPE html> 
+<html> 
+<head> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Free US phone number +15182610312,Receive Sms online US for free - Receive-Sms-Free.Cc</title> 
+    <meta name="keywords" content="Free US phone number,US temporary mobile number,Free US virtual phone number,US phone number receive sms free,receive sms online US,+15182610312" />
+    <meta name="description" content="Free US phone number +15182610312 Receive Sms online,You can use this free US mobile number to receive verification code activation services for apps or websites like WhatsApp, facebook,etc." />
+    <meta name="author" content="Receive Sms Online Free  Receive-Sms-Free.Cc">
+    <meta property="og:title" content="Free US phone number +15182610312,Receive Sms online US for free - Receive-Sms-Free.Cc">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="/Free-USA-Phone-Number/15182610312/">
+    <link rel="canonical" href="/Free-USA-Phone-Number/15182610312/">
+    <link rel="Bookmark" href="/favicon.ico" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link type="text/css" rel="stylesheet" href="https://assets.receive-sms-free.cc/static/css/bootstrap-sortable.css" />
+	<link type="text/css" rel="stylesheet" href="https://assets.receive-sms-free.cc/static/css/bootstrap.min.css" />
+	<link rel="stylesheet" type="text/css" href="https://assets.receive-sms-free.cc/static/css/custom.css">
+	<link type="text/css" rel="stylesheet" href="https://assets.receive-sms-free.cc/static/css/bootstrap.3.0.0.css" />
+    <link type="text/css" rel="stylesheet" href="https://assets.receive-sms-free.cc/static/css/gobal.css" />
+    <link type="text/css" rel="stylesheet" href="https://assets.receive-sms-free.cc/static/css/style.css?v1.5" />
+    <link type="text/css" rel="stylesheet" href="https://assets.receive-sms-free.cc/static/css/animate.min.css" />
+    <!-- owl.carousel.css -->
+    <link type="text/css" rel="stylesheet" href="https://assets.receive-sms-free.cc/static/css/owl.carousel.css" />
+    <script type="765f3cb4c2125142015f8d07-text/javascript" src="https://assets.receive-sms-free.cc/static/js/jquery.js"></script>
+    <script type="765f3cb4c2125142015f8d07-text/javascript" src="https://assets.receive-sms-free.cc/static/js/common.js"></script>
+    <!-- owl.carousel.js -->
+    <script type="765f3cb4c2125142015f8d07-text/javascript" src="https://assets.receive-sms-free.cc/static/js/owl.carousel.js"></script>
+    <script type="765f3cb4c2125142015f8d07-text/javascript" src="https://assets.receive-sms-free.cc/static/js/wow.min.js"></script>
+    <script type="765f3cb4c2125142015f8d07-text/javascript">
+       new WOW().init();
+    </script>
+	<!--IE9 Media-->
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="https://assets.receive-sms-free.cc/static/js/respond.min.js"></script>
+    <![endif]-->
+    <!--IE9 HTML5-->
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="https://assets.receive-sms-free.cc/static/js/html5shiv.min.js"></script>
+    <![endif]-->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3993128489863289" crossorigin="anonymous" type="765f3cb4c2125142015f8d07-text/javascript"></script>
+    <script type="765f3cb4c2125142015f8d07-text/javascript" src="https://assets.receive-sms-free.cc/static/js/bootstrap.min.js"></script>
+    <script type="765f3cb4c2125142015f8d07-text/javascript" src="https://assets.receive-sms-free.cc/static/js/clipboard.min.js"></script>
+</head>
+<body>
+    <!--warpper star-->
+     <div id="warpper">
+     
+	  <header><div class="header header-hover1">
+           <div class="logo"><a href="https://receive-sms-free.cc/">Receive SMS online free</a></div>
+           <div class="nav">
+              <ul>
+                 <li><a href="https://receive-sms-free.cc/">Home</a></li>
+                 <li><a href="/Free-USA-Phone-Number/">USA</a></li>
+                 <li><a href="/Free-Finland-Phone-Number/">Finland</a></li>
+                 <li><a href="/Free-Netherlands-Phone-Number/">Netherlands</a></li>
+                 <li><a href="/Free-Sweden-Phone-Number/">Sweden</a></li>
+				 <li><a href="/regions/">Countries</a></li>
+                 <li><a href="/Inactive-Phone-Number/">Inactive number</a></li>
+                 <li><a href="https://22.do" target="_blank">Temp Email</a></li>
+              </ul>
+           </div>
+
+           <div class="btn-m-list">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+           </div>
+        </div></header>
+        
+        <!--Mobile nav-->  
+        <div class="neirong neirong-hide">
+            <div class="neirong-bd">
+                <a href="https://receive-sms-free.cc/" class="neirong-on">Home</a>
+                <a href="/Free-USA-Phone-Number/">USA Phone Number<i></i></a>
+                <a href="/Free-Finland-Phone-Number/">Finland Phone Number<i></i></a>
+				<a href="/Free-Sweden-Phone-Number/">Sweden Phone Number<i></i></a>
+                <a href="/Free-Netherlands-Phone-Number/">Netherlands Phone Number<i></i></a>
+				<a href="/regions/">Countries<i></i></a>
+				<a href="/Inactive-Phone-Number/">Inactive Phone Number<i></i></a>
+                <a href="/help.html">Help<i></i></a>
+                <a href="https://22.do" target="_blank">Temp Email<i></i></a>
+            </div>
+            <div class="neirong-close"></div>
+        </div>
+        <!-- Mobile nav -->
+<style>.header{position: relative;}</style>        
+        <section><div class="contain">
+           <div class="casedetails">
+              <div class="layout">
+                 <div class="case-tou clearfix" style="padding-top:31px;">
+                    <div class="name" style="border:0;width:100%;text-align:center;">
+                       
+					   
+					   
+                       <p style="font-size:18px;margin:15px 0;"><img src="https://assets.receive-sms-free.cc/static/flags/normal/us.png" height="25" />&nbsp;&nbsp;<a href="/Free-USA-Phone-Number/">US Phone Number</a></p>
+
+					   <h1 data-clipboard-text="15182610312" class="copys btn2" style="font-size:24px;margin-top:25px;cursor:pointer;height:30px;line-height:30px;">+1 5182610312 <img src="https://assets.receive-sms-free.cc/static/img/status1.png"></h1>
+					   <p style="margin-bottom:10px;" id="copystate">( Click to copy the phone number )</p>
+					   
+                       <p><span style="font-size:22px; color:#007bff; margin-top:-5px;">&#10122;</span> Refresh this page to get the new message.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                       <p><span style="font-size:22px; color:#007bff; margin-top:-5px;">&#10123;</span> New messages will arrive in about 1 minutes.&nbsp;&nbsp;&nbsp;</p>
+                       <p><span style="font-size:22px; color:#007bff; margin-top:-5px;">&#10124;</span> Anyone can see the message of this number&nbsp;&nbsp;&nbsp;&nbsp;</p>
+					   
+					   <div style="padding:10px;margin:0 auto;width:100%;text-align:center;"><button class="btn-primary btn" onClick="if (!window.__cfRLUnblockHandlers) return false; upClick()" data-cf-modified-765f3cb4c2125142015f8d07-=""><b font-size="23">&#8635; Update the latest SMS</b></button></div>
+					   
+                       <p>List the latest 999 messages received</p>
+					   
+					   <p style="margin-top:10px;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3993128489863289" crossorigin="anonymous" type="765f3cb4c2125142015f8d07-text/javascript"></script>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3993128489863289"
+     data-ad-slot="2953838303"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script type="765f3cb4c2125142015f8d07-text/javascript">
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></p>
+					   
+
+					   <p style="text-align:center;margin-top:8px;">If did not receive the message for a long time, please change a number</p>
+					   
+
+                    </div>
+
+                 </div>
+				 
+
+              <div class="casetext">
+				 <div class="row border-bottom table-primary mobile_hide">
+				   <div class="col-xs-0 col-md-2 mobile_hide font-weight-bold">From</div>
+				   <div class="col-xs-0 col-md-2 mobile_hide font-weight-bold">Time</div>
+				   <div class="col-xs-0 col-md-8 mobile_hide font-weight-bold">Message</div>
+			    </div>
+			    
+			    
+			
+			
+<div class="row border-bottom table-hover bg-messages">
+<div class="col-xs-12 col-md-2"><div class="mobile_hide">22395</div><div class="mobile_show message_head">From 22395 (5 sec ago)</div></div>
+<div class="col-xs-0 col-md-2 mobile_hide">5 sec ago</div>
+<div class="col-xs-12 col-md-8" style="color:#666464;word-break:break-all;">Your TAYGO verification code is: <span class="btn1" data-clipboard-text="006198"><b>006198</b></span></div>
+</div>
+<div class="row border-bottom table-hover">
+<div class="col-xs-12" style="color:#666464;overflow: hidden;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3993128489863289" crossorigin="anonymous" type="765f3cb4c2125142015f8d07-text/javascript"></script>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3993128489863289"
+     data-ad-slot="4721697655"
+     data-ad-format="auto"></ins>
+<script type="765f3cb4c2125142015f8d07-text/javascript">
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+</div>
+<div class="row border-bottom table-hover bg-messages">
+<div class="col-xs-12 col-md-2"><div class="mobile_hide">22395</div><div class="mobile_show message_head">From 22395 (3 min ago)</div></div>
+<div class="col-xs-0 col-md-2 mobile_hide">3 min ago</div>
+<div class="col-xs-12 col-md-8" style="color:#666464;word-break:break-all;">Your TAYGO verification code is: <span class="btn1" data-clipboard-text="121958"><b>121958</b></span></div>
+</div>
+<div class="row border-bottom table-hover">
+<div class="col-xs-12 col-md-2"><div class="mobile_hide"><a target="_blank" href="/from/Microsoft">Microsoft</a></div><div class="mobile_show message_head">From <a target="_blank" href="/from/Microsoft">Microsoft</a> (9 min ago)</div></div>
+<div class="col-xs-0 col-md-2 mobile_hide">9 min ago</div>
+<div class="col-xs-12 col-md-8" style="color:#666464;word-break:break-all;"><span class="btn1" data-clipboard-text="2866"><b>2866</b></span> is your Microsoft account verification code.</div>
+</div>
+<div class="row border-bottom table-hover bg-messages">
+<div class="col-xs-12 col-md-2"><div class="mobile_hide"><a target="_blank" href="/from/Google">Google</a></div><div class="mobile_show message_head">From <a target="_blank" href="/from/Google">Google</a> (13 min ago)</div></div>
+<div class="col-xs-0 col-md-2 mobile_hide">13 min ago</div>
+<div class="col-xs-12 col-md-8" style="color:#666464;word-break:break-all;">G-<span class="btn1" data-clipboard-text="813017"><b>813017</b></span> is your Google verification code.</div>
+</div>
+<div class="row border-bottom table-hover">
+<div class="col-xs-12 col-md-2"><div class="mobile_hide"><a target="_blank" href="/from/Google">Google</a></div><div class="mobile_show message_head">From <a target="_blank" href="/from/Google">Google</a> (14 min ago)</div></div>
+<div class="col-xs-0 col-md-2 mobile_hide">14 min ago</div>
+<div class="col-xs-12 col-md-8" style="color:#666464;word-break:break-all;">G-<span class="btn1" data-clipboard-text="300237"><b>300237</b></span> is your Google verification code. Don't share your code with anyone.</div>
+</div>
+<div class="row border-bottom table-hover">
+<div class="col-xs-12" style="color:#666464;overflow: hidden;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3993128489863289" crossorigin="anonymous" type="765f3cb4c2125142015f8d07-text/javascript"></script>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3993128489863289"
+     data-ad-slot="4721697655"
+     data-ad-format="auto"></ins>
+<script type="765f3cb4c2125142015f8d07-text/javascript">
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+</div>
+<div class="row border-bottom table-hover bg-messages">
+<div class="col-xs-12 col-md-2"><div class="mobile_hide">+14084166589</div><div class="mobile_show message_head">From +14084166589 (14 min ago)</div></div>
+<div class="col-xs-0 col-md-2 mobile_hide">14 min ago</div>
+<div class="col-xs-12 col-md-8" style="color:#666464;word-break:break-all;">Reminder! 【 mextorn.com/】Username: Carlosv Pwd: MT<span class="btn1" data-clipboard-text="52189"><b>52189</b></span> Balance: 3,365,721.54</div>
+</div>
+<div class="row border-bottom table-hover">
+<div class="col-xs-12 col-md-2"><div class="mobile_hide"><a target="_blank" href="/from/Google">Google</a></div><div class="mobile_show message_head">From <a target="_blank" href="/from/Google">Google</a> (19 min ago)</div></div>
+<div class="col-xs-0 col-md-2 mobile_hide">19 min ago</div>
+<div class="col-xs-12 col-md-8" style="color:#666464;word-break:break-all;">G-<span class="btn1" data-clipboard-text="507191"><b>507191</b></span> is your Google verification code.</div>
+</div>
+<div class="row border-bottom table-hover bg-messages">
+<div class="col-xs-12 col-md-2"><div class="mobile_hide">+16467733297</div><div class="mobile_show message_head">From +16467733297 (35 min ago)</div></div>
+<div class="col-xs-0 col-md-2 mobile_hide">35 min ago</div>
+<div class="col-xs-12 col-md-8" style="color:#666464;word-break:break-all;">Reminder!【https://mextorn.com/】Username: Carlosv Pwd: MT<span class="btn1" data-clipboard-text="52189"><b>52189</b></span> Balance: 3,365,721.56</div>
+</div>
+<div class="row border-bottom table-hover">
+<div class="col-xs-12 col-md-2"><div class="mobile_hide">22395</div><div class="mobile_show message_head">From 22395 (43 min ago)</div></div>
+<div class="col-xs-0 col-md-2 mobile_hide">43 min ago</div>
+<div class="col-xs-12 col-md-8" style="color:#666464;word-break:break-all;">Your Bally Rewards - Dev verification code is: <span class="btn1" data-clipboard-text="9623"><b>9623</b></span></div>
+</div>
+<div class="row border-bottom table-hover">
+<div class="col-xs-12" style="color:#666464;overflow: hidden;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3993128489863289" crossorigin="anonymous" type="765f3cb4c2125142015f8d07-text/javascript"></script>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3993128489863289"
+     data-ad-slot="4721697655"
+     data-ad-format="auto"></ins>
+<script type="765f3cb4c2125142015f8d07-text/javascript">
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+</div>
+<div class="row border-bottom table-hover bg-messages">
+<div class="col-xs-12 col-md-2"><div class="mobile_hide">+12058519494</div><div class="mobile_show message_head">From +12058519494 (1 hour ago)</div></div>
+<div class="col-xs-0 col-md-2 mobile_hide">1 hour ago</div>
+<div class="col-xs-12 col-md-8" style="color:#666464;word-break:break-all;"><span class="btn1" data-clipboard-text="6379"><b>6379</b></span> is your OTP on HOOD app, valid for 10 minutes only. AGu14w9ONPw - HOOD</div>
+</div>
+<div class="row border-bottom table-hover">
+<div class="col-xs-12 col-md-2"><div class="mobile_hide">22395</div><div class="mobile_show message_head">From 22395 (1 hour ago)</div></div>
+<div class="col-xs-0 col-md-2 mobile_hide">1 hour ago</div>
+<div class="col-xs-12 col-md-8" style="color:#666464;word-break:break-all;">Your Bally Rewards - Dev verification code is: <span class="btn1" data-clipboard-text="0361"><b>0361</b></span></div>
+</div>
+<div class="row border-bottom table-hover bg-messages">
+<div class="col-xs-12 col-md-2"><div class="mobile_hide"><a target="_blank" href="/from/Google">Google</a></div><div class="mobile_show message_head">From <a target="_blank" href="/from/Google">Google</a> (2 hour ago)</div></div>
+<div class="col-xs-0 col-md-2 mobile_hide">2 hour ago</div>
+<div class="col-xs-12 col-md-8" style="color:#666464;word-break:break-all;">G-<span class="btn1" data-clipboard-text="547251"><b>547251</b></span> is your Google verification code. Don't share your code with anyone.</div>
+</div>
+<div class="row border-bottom table-hover">
+<div class="col-xs-12 col-md-2"><div class="mobile_hide"><a target="_blank" href="/from/Google">Google</a></div><div class="mobile_show message_head">From <a target="_blank" href="/from/Google">Google</a> (2 hour ago)</div></div>
+<div class="col-xs-0 col-md-2 mobile_hide">2 hour ago</div>
+<div class="col-xs-12 col-md-8" style="color:#666464;word-break:break-all;">G-<span class="btn1" data-clipboard-text="609660"><b>609660</b></span> is your Google verification code.</div>
+</div>
+<div class="row border-bottom table-hover bg-messages">
+<div class="col-xs-12 col-md-2"><div class="mobile_hide">22395</div><div class="mobile_show message_head">From 22395 (2 hour ago)</div></div>
+<div class="col-xs-0 col-md-2 mobile_hide">2 hour ago</div>
+<div class="col-xs-12 col-md-8" style="color:#666464;word-break:break-all;">Your Bally Rewards - Dev verification code is: <span class="btn1" data-clipboard-text="6261"><b>6261</b></span></div>
+</div>
+<div class="row border-bottom table-hover">
+<div class="col-xs-12 col-md-2"><div class="mobile_hide">22395</div><div class="mobile_show message_head">From 22395 (2 hour ago)</div></div>
+<div class="col-xs-0 col-md-2 mobile_hide">2 hour ago</div>
+<div class="col-xs-12 col-md-8" style="color:#666464;word-break:break-all;">Your Bally Rewards - Dev verification code is: <span class="btn1" data-clipboard-text="9153"><b>9153</b></span></div>
+</div>
+<div class="row border-bottom table-hover bg-messages">
+<div class="col-xs-12 col-md-2"><div class="mobile_hide">+17372005449</div><div class="mobile_show message_head">From +17372005449 (2 hour ago)</div></div>
+<div class="col-xs-0 col-md-2 mobile_hide">2 hour ago</div>
+<div class="col-xs-12 col-md-8" style="color:#666464;word-break:break-all;">This is a message from Paragon Squad</div>
+</div>
+<div class="row border-bottom table-hover">
+<div class="col-xs-12 col-md-2"><div class="mobile_hide">+17372005449</div><div class="mobile_show message_head">From +17372005449 (2 hour ago)</div></div>
+<div class="col-xs-0 col-md-2 mobile_hide">2 hour ago</div>
+<div class="col-xs-12 col-md-8" style="color:#666464;word-break:break-all;">Testing broadcast message by QA team</div>
+</div>
+<div class="row border-bottom table-hover bg-messages">
+<div class="col-xs-12 col-md-2"><div class="mobile_hide">22395</div><div class="mobile_show message_head">From 22395 (3 hour ago)</div></div>
+<div class="col-xs-0 col-md-2 mobile_hide">3 hour ago</div>
+<div class="col-xs-12 col-md-8" style="color:#666464;word-break:break-all;">Your Bally Rewards - Dev verification code is: <span class="btn1" data-clipboard-text="5779"><b>5779</b></span></div>
+</div>
+<div class="row border-bottom table-hover">
+<div class="col-xs-12 col-md-2"><div class="mobile_hide"><a target="_blank" href="/from/Google">Google</a></div><div class="mobile_show message_head">From <a target="_blank" href="/from/Google">Google</a> (3 hour ago)</div></div>
+<div class="col-xs-0 col-md-2 mobile_hide">3 hour ago</div>
+<div class="col-xs-12 col-md-8" style="color:#666464;word-break:break-all;">G-<span class="btn1" data-clipboard-text="216053"><b>216053</b></span> is your Google verification code. Don't share your code with anyone.</div>
+</div>
+<div class="row border-bottom table-hover bg-messages">
+<div class="col-xs-12 col-md-2"><div class="mobile_hide">22395</div><div class="mobile_show message_head">From 22395 (3 hour ago)</div></div>
+<div class="col-xs-0 col-md-2 mobile_hide">3 hour ago</div>
+<div class="col-xs-12 col-md-8" style="color:#666464;word-break:break-all;">Your TAYGO verification code is: <span class="btn1" data-clipboard-text="976822"><b>976822</b></span></div>
+</div>
+			  </div>
+			  
+<div style="margin:0 auto;text-align:center;">	 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3993128489863289" crossorigin="anonymous" type="765f3cb4c2125142015f8d07-text/javascript"></script>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3993128489863289"
+     data-ad-slot="6814659907"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script type="765f3cb4c2125142015f8d07-text/javascript">
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+
+			 
+	   		<div class="pagination-wrap" style="text-align:center;">
+            <ul class="pagination" style="padding:10px;">
+			  <ul class="pagination justify-content-center"><li class="page-item active pointer"><span class="page-link">1</a></li><li class="page-item"><a class="page-link" href="/Free-USA-Phone-Number/15182610312/2.html">2</a></li><li class="page-item"><a class="page-link" href="/Free-USA-Phone-Number/15182610312/3.html">3</a></li><li class="page-item"><a class="page-link" href="/Free-USA-Phone-Number/15182610312/4.html">4</a></li><li class="page-item"><a class="page-link" href="/Free-USA-Phone-Number/15182610312/5.html">5</a></li><li class="page-item"><a class="page-link" href="/Free-USA-Phone-Number/15182610312/6.html">6</a></li><li class="page-item"><a class="page-link" href="/Free-USA-Phone-Number/15182610312/2.html">»</a></li><li class="page-item"><a class="page-link" href="/Free-USA-Phone-Number/15182610312/40.html">End</a></li></ul>			</ul>
+		</div>
+		
+<div style="margin:0 auto;text-align:center;">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3993128489863289" crossorigin="anonymous" type="765f3cb4c2125142015f8d07-text/javascript"></script>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3993128489863289"
+     data-ad-slot="9057679868"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script type="765f3cb4c2125142015f8d07-text/javascript">
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+		
+	              </div>
+          </div>
+		  
+		  
+           <div class="section04">
+              <div >
+                 <div class="index-title wow fadeInUp" data-wow-delay="0.0s">
+                    <span>About this <a href="/Free-USA-Phone-Number/">free US phone number</a></span> 
+                 </div>
+			  </div>
+              <div class="layout" style="background:#fff;margin-top:40px;">
+			      <div class="index-news" style="padding:30px 15px;">
+                    <p style="padding:10px 0;">1). Keep your privacy with this free US temporary phone number, <a href="https://receive-sms-free.cc/">Receive sms online</a> without registration or personal number.</p>
+					<p style="padding:10px 0;">2). Please do not use this US mobile number to receive important information or use it for illegal purposes, otherwise you will bear the consequences yourself.</p>
+					<p style="padding:10px 0;">3). The number will not be online for long, If it is offline, you can change a number. We add new numbers every week so that you can <a href="/Free-USA-Phone-Number/">receive sms online US</a> for free or receive free sms text online worldwide.</p>
+					<p style="padding:10px 0;">4). If you like this Receive SMS Online Service, Please bookmark our website and share it with your friends. (Join our Telegram group and get the latest new US numbers)</p>
+					</div>
+              </div>
+              
+           </div>
+		  
+		  
+		  
+           <div class="section04">
+              <div class="layout">
+                 <div class="index-title wow fadeInUp" data-wow-delay="0.0s">
+                    <span>Blog: Latest tutorials and news</span> 
+                 </div>
+                 <div class="index-news">
+                    <div class="owl-carousel" id="owl-demo2">
+									 <div class="item wow fadeInUp" data-wow-delay="0s"><a href="/blog/153/">
+                          <div class="tmain">
+                             <span class="time">11/05/2022</span>
+                             <h2 class="title overflowtxt">From traditional SMS to rich media messages, a quiet digital marketing upgrade</h2>
+                             <h3 class="h3"> 
+On December 3, 1992, the world's first text message was born, which...</h3>
+                             <span class="more">Load More</span>
+                          </div>
+                       </a></div>
+                					 <div class="item wow fadeInUp" data-wow-delay="0.05s"><a href="/blog/151/">
+                          <div class="tmain">
+                             <span class="time">11/05/2022</span>
+                             <h2 class="title overflowtxt">Apple learns from Chinese mobile phone companies and pushes advertisements to users</h2>
+                             <h3 class="h3"> 
+Apple's App Store has begun to push advertisements. When users sear...</h3>
+                             <span class="more">Load More</span>
+                          </div>
+                       </a></div>
+                					 <div class="item wow fadeInUp" data-wow-delay="0.1s"><a href="/blog/149/">
+                          <div class="tmain">
+                             <span class="time">11/04/2022</span>
+                             <h2 class="title overflowtxt">Chilean telecom giant Entel plans $358m sale of fibre assets</h2>
+                             <h3 class="h3"> 
+Chilean telecommunications giant Entel has announced that it will s...</h3>
+                             <span class="more">Load More</span>
+                          </div>
+                       </a></div>
+                					 <div class="item wow fadeInUp" data-wow-delay="0.15s"><a href="/blog/147/">
+                          <div class="tmain">
+                             <span class="time">11/04/2022</span>
+                             <h2 class="title overflowtxt">Japan to allocate 66.2 billion yen as research fund for next-generation 6G wireless networks</h2>
+                             <h3 class="h3"> 
+According to reports, Japan is setting up a fund to support researc...</h3>
+                             <span class="more">Load More</span>
+                          </div>
+                       </a></div>
+                					 <div class="item wow fadeInUp" data-wow-delay="0.2s"><a href="/blog/141/">
+                          <div class="tmain">
+                             <span class="time">11/03/2022</span>
+                             <h2 class="title overflowtxt">What is an SMS channel?</h2>
+                             <h3 class="h3"> 
+The short message channel is the short message sending interface d...</h3>
+                             <span class="more">Load More</span>
+                          </div>
+                       </a></div>
+                					 <div class="item wow fadeInUp" data-wow-delay="0.25s"><a href="/blog/139/">
+                          <div class="tmain">
+                             <span class="time">11/03/2022</span>
+                             <h2 class="title overflowtxt">What? Are all your text messages blocked?</h2>
+                             <h3 class="h3"> 
+In the 5G era, mobile phones have become an indispensable necessity...</h3>
+                             <span class="more">Load More</span>
+                          </div>
+                       </a></div>
+                					 <div class="item wow fadeInUp" data-wow-delay="0.3s"><a href="/blog/137/">
+                          <div class="tmain">
+                             <span class="time">11/03/2022</span>
+                             <h2 class="title overflowtxt">Do you really understand the SMS verification code?</h2>
+                             <h3 class="h3"> 
+In today's era, SMS verification code are everywhere, and we are ex...</h3>
+                             <span class="more">Load More</span>
+                          </div>
+                       </a></div>
+                					 <div class="item wow fadeInUp" data-wow-delay="0.35s"><a href="/blog/135/">
+                          <div class="tmain">
+                             <span class="time">11/02/2022</span>
+                             <h2 class="title overflowtxt">This is the origin of the text message!</h2>
+                             <h3 class="h3"> 
+This is the origin of the text message!
+
+
+
+We text and receive text...</h3>
+                             <span class="more">Load More</span>
+                          </div>
+                       </a></div>
+                                  </div>
+                    <a class="indexmore" href="/blog/">MORE</a>
+                 </div>
+              </div>
+           </div>
+		  
+       </div></section>
+		<div id="foot">
+		<footer><div class="footer">
+           <div class="layout">
+              <div class="foottou">
+                 <div class="ftlogo"><img src="https://assets.receive-sms-free.cc/static/img/logo-f.png" /></div>
+                 <div class="ftcont">
+					<i class="i"><a href="https://receive-sms-free.cc/">Receive sms free</a></i> &nbsp;&nbsp;|&nbsp;&nbsp;
+					<i class="i"><a href="/regions/">Countries</a></i> &nbsp;&nbsp;|&nbsp;&nbsp;
+					<i class="i"><a href="/blog/">Blog</a></i> &nbsp;&nbsp;|&nbsp;&nbsp;
+                    <i class="i"><a href="/privacy-policy.html">Privacy Policy</a></i> &nbsp;&nbsp;|&nbsp;&nbsp;
+                    <i class="i"><a href="/help.html">Help</a></i> &nbsp;&nbsp;|&nbsp;&nbsp;
+					<i class="i"><a href="/contact.html">Contact Us</a></i> &nbsp;&nbsp;|&nbsp;&nbsp;
+					<i class="i"><a href="/sitemap.xml">SiteMap</a></i>
+                    <p>&copy; 2019  <a href="https://receive-sms-free.cc/">Free temporary phone number</a>, <a href="https://receive-sms-free.cc/">Receive Sms Online Free</a>  All Rights Reserved.</p>
+                 </div>
+              </div>
+			</div>
+        </div></footer>
+      </div>
+	  <div style="display:none;"><!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-128637489-14" type="765f3cb4c2125142015f8d07-text/javascript"></script>
+<script type="765f3cb4c2125142015f8d07-text/javascript">
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-128637489-14');
+</script></div>
+	  <!--footer end-->
+</div><!--warpper end--><script type="765f3cb4c2125142015f8d07-text/javascript">
+$(document).ready(function() {
+  $("#owl-demo2").owlCarousel({
+	items : 4,
+	lazyLoad : true,
+	navigation : true, //PRE
+	pagination:false, //List
+	autoPlay:true
+  });
+});
+var upClick = function(){
+  var rurl = $("link[rel=canonical]").attr("href");
+  console.log(rurl);
+  window.location=rurl;
+}
+</script>
+<script type="765f3cb4c2125142015f8d07-text/javascript" src="https://assets.receive-sms-free.cc/static/js/tool.js"></script>
+
+    <script src="//www.recaptcha.net/recaptcha/api.js?render=6LeUY8QZAAAAAGysBDuKCsuyB1onVIs_RnpocYXW" type="765f3cb4c2125142015f8d07-text/javascript"></script>
+    <style>.grecaptcha-badge {display: none;}</style>
+    <script type="765f3cb4c2125142015f8d07-text/javascript">
+        window.onload = async function() {
+            grecaptcha.ready(function() {
+                grecaptcha.execute('6LeUY8QZAAAAAGysBDuKCsuyB1onVIs_RnpocYXW', {action: 'login'}).then(function(token) {
+                    fetch('/ajax/recaptcha', {
+                        method: 'POST',
+                        headers: {'Content-Type':'application/json'},
+                        body:JSON.stringify({token:token})
+                    });
+                });
+            });
+        } 
+    </script>
+
+<script async src="https://fundingchoicesmessages.google.com/i/pub-3993128489863289?ers=1" nonce="6XaM5zq-S7-TXlmzQ667ZQ" type="765f3cb4c2125142015f8d07-text/javascript"></script><script nonce="6XaM5zq-S7-TXlmzQ667ZQ" type="765f3cb4c2125142015f8d07-text/javascript">(function() {function signalGooglefcPresent() {if (!window.frames['googlefcPresent']) {if (document.body) {const iframe = document.createElement('iframe'); iframe.style = 'width: 0; height: 0; border: none; z-index: -1000; left: -1000px; top: -1000px;'; iframe.style.display = 'none'; iframe.name = 'googlefcPresent'; document.body.appendChild(iframe);} else {setTimeout(signalGooglefcPresent, 0);}}}signalGooglefcPresent();})();</script>
+<script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="765f3cb4c2125142015f8d07-|49" defer></script><script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'901daca54c6741c7',t:'MTczNjg1ODIxNS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body> 
+</html>
+Verification Code: 006198
+Code>>>>>>>>>>006198
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser verify the cell phone number &amp#27;[0m&amp#27;[32m&amp#27;[1m"5182610312"&amp#27;[0m                                                                                                                                                                                              &amp#27;[90m# com.taygo.stepDefinations.SignUpPageSteps.cellPhoneVerification(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser upload a profile picture&amp#27;[0m                                                                                                                                                                                                               &amp#27;[90m# com.taygo.stepDefinations.SignUpPageSteps.uploadProfilePhoto()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser select a package&amp#27;[0m                                                                                                                                                                                                                       &amp#27;[90m# com.taygo.stepDefinations.SignUpPageSteps.packageSelection()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser experiences consistent brand aesthetics&amp#27;[0m                                                                                                                                                                                                &amp#27;[90m# com.taygo.stepDefinations.SignUpPageSteps.brandAesthetics()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enter Name on Card &amp#27;[0m&amp#27;[32m&amp#27;[1m"test"&amp#27;[0m&amp#27;[32m, Card number &amp#27;[0m&amp#27;[32m&amp#27;[1m"4242424242424242"&amp#27;[0m&amp#27;[32m, date &amp#27;[0m&amp#27;[32m&amp#27;[1m"01/28"&amp#27;[0m&amp#27;[32m and CVV &amp#27;[0m&amp#27;[32m&amp#27;[1m"123"&amp#27;[0m                                                                                                                                                  &amp#27;[90m# com.taygo.stepDefinations.SignUpPageSteps.mySubscriptionSummary(java.lang.String,java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mverify the user dashboard&amp#27;[0m                                                                                                                                                                                                                  &amp#27;[90m# com.taygo.stepDefinations.SignUpPageSteps.verifyDashboard()&amp#27;[0m
+Form Builder Status:-PUBLISHED
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser verify the my apps&amp#27;[0m                                                                                                                                                                                                                     &amp#27;[90m# com.taygo.stepDefinations.SignUpPageSteps.verifyMyApps()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Jan 14, 2025 6:05:20 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 131, returning the closest version; found: 128; Please update to a Selenium version that supports CDP version 131
+log4j:WARN No appenders could be found for logger (org.apache.http.impl.conn.BasicClientConnectionManager).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+]]></system-err>
+  </testcase>
+</testsuite>

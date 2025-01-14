@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="418.706" tests="8" skipped="0" failures="1" errors="0">
+<testcase classname="Test Signup Functionality" name="Test Signup with invalid user error message data - Example #1.1" time="24.798">
+<system-out><![CDATA[
+Given user on the Signup page...............................................passed
+When user enter firstName "", lastName "", email "", mobile ""..............passed
+Then user verify error messages for firstName "Required", lastName "Required", email "Required",and  mobileNum "Required".passed
+]]></system-out>
+</testcase>
+<testcase classname="Test Signup Functionality" name="Test Signup with invalid user error message data - Example #1.2" time="23.185">
+<system-out><![CDATA[
+Given user on the Signup page...............................................passed
+When user enter firstName "", lastName "Test", email "Test@gmail.com", mobile "8794568798".passed
+Then user verify error messages for firstName "Required", lastName "", email "",and  mobileNum "".passed
+]]></system-out>
+</testcase>
+<testcase classname="Test Signup Functionality" name="Test Signup with invalid user error message data - Example #1.3" time="19.678">
+<system-out><![CDATA[
+Given user on the Signup page...............................................passed
+When user enter firstName "Test", lastName "", email "Test@gmail.com", mobile "8794568798".passed
+Then user verify error messages for firstName "", lastName "Required", email "",and  mobileNum "".passed
+]]></system-out>
+</testcase>
+<testcase classname="Test Signup Functionality" name="Test Signup with invalid user error message data - Example #1.4" time="19.975">
+<system-out><![CDATA[
+Given user on the Signup page...............................................passed
+When user enter firstName "Test", lastName "Test", email "", mobile "8794568798".passed
+Then user verify error messages for firstName "", lastName "", email "Required",and  mobileNum "".passed
+]]></system-out>
+</testcase>
+<testcase classname="Test Signup Functionality" name="Test Signup with invalid user error message data - Example #1.5" time="19.216">
+<failure type="org.openqa.selenium.NoSuchElementException" message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;[class*='MuiFormHelperText']&quot;}
+  (Session info: chrome=131.0.6778.265)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.25'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [947b79aebe36d3d58d2139905eeb1d4e, findElement {using=css selector, value=[class*='MuiFormHelperText']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.265, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Windows\TEMP\scoped_dir2...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:31902}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:31902/devtoo..., se:cdpVersion: 131.0.6778.265, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 947b79aebe36d3d58d2139905eeb1d4e">
+<![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"[class*='MuiFormHelperText']"}
+  (Session info: chrome=131.0.6778.265)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.25'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [947b79aebe36d3d58d2139905eeb1d4e, findElement {using=css selector, value=[class*='MuiFormHelperText']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.265, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Windows\TEMP\scoped_dir2...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:31902}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:31902/devtoo..., se:cdpVersion: 131.0.6778.265, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 947b79aebe36d3d58d2139905eeb1d4e
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at com.taygo.utility.HighlightElementLocator.findElement(HighlightElementLocator.java:28)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy22.getText(Unknown Source)
+	at com.taygo.stepDefinations.SignUpPageSteps.userVerifyErrorMessagesForFirstNameLastNameEmailAndMobileNum(SignUpPageSteps.java:66)
+	at ?.user verify error messages for firstName "", lastName "", email "Must be a valid email",and  mobileNum ""(file:///F:/Test%20demo/DemoBdd/./src/test/java/com/taygo/feature/signUp.feature:7)
+]]>
+</failure>
+<system-out><![CDATA[
+Given user on the Signup page...............................................passed
+When user enter firstName "Test", lastName "Test", email "Test", mobile "8794568798".passed
+Then user verify error messages for firstName "", lastName "", email "Must be a valid email",and  mobileNum "".failed
+]]></system-out>
+</testcase>
+<testcase classname="Test Signup Functionality" name="Test Signup with invalid user error message data - Example #1.6" time="21.595">
+<system-out><![CDATA[
+Given user on the Signup page...............................................passed
+When user enter firstName "Test", lastName "Test", email "Test@gmail.com", mobile "".passed
+Then user verify error messages for firstName "", lastName "", email "",and  mobileNum "Required".passed
+]]></system-out>
+</testcase>
+<testcase classname="Test Signup Functionality" name="Test Signup with invalid user error message data - Example #1.7" time="21.515">
+<system-out><![CDATA[
+Given user on the Signup page...............................................passed
+When user enter firstName "Test", lastName "Test", email "Test@gmail.com", mobile "879456879".passed
+Then user verify error messages for firstName "", lastName "", email "",and  mobileNum "Please enter valid phone number".passed
+]]></system-out>
+</testcase>
+<testcase classname="Test Signup Functionality" name="User signup with loan officer - Example #1.1" time="268.529">
+<system-out><![CDATA[
+Given user on the Signup page...............................................passed
+When user enter firstName "loanofficer", lastName "test", mobile "5182610312".passed
+And user set the password "Test@1234".......................................passed
+And user fill the individual information JobTitle "TestJob" NMLS_ID "123456" Address1 "USA" Address2 "UK" City "New York" ZipCode "10001" State "Alaska".passed
+And user fill the company information CompanyName "SMTP_Test" CompanyNMLSID "123456" CompanyType "Retail" Address1 "USA" Address2nd "UK" City "New York" ZipCode "10001" State "Alaska" LoanOfficers "5" WebSiteURL "https://cloud.taygo.tech/".passed
+And user verify the cell phone number "5182610312"..........................passed
+And user upload a profile picture...........................................passed
+And user select a package...................................................passed
+And user experiences consistent brand aesthetics............................passed
+And user enter Name on Card "test", Card number "4242424242424242", date "01/28" and CVV "123".passed
+Then verify the user dashboard..............................................passed
+And user verify the my apps.................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

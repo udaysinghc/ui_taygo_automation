@@ -1,0 +1,4 @@
+com\taygo\testRunner\TestRunner.class
+com\taygo\testRunner\GmailLogin.class
+com\taygo\testRunner\MaxMinFinder.class
+com\taygo\stepDefinations\SignUpPageSteps.class

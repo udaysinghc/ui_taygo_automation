@@ -18,10 +18,6 @@ import org.junit.runner.RunWith;
             "com/taygo/stepDefinations","com.taygo.base"
     }
 
-    //		dryRun = true ,
-    //		strict =true,
-    //		tags = {" @Regression ,@Sanity" },
-    //    monochrome = true)
     )
 public class TestRunner {
 
